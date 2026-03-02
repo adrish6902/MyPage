@@ -25,7 +25,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-118",
     "section": "CSE-1",
     "startTime": "12:00",
@@ -33,18 +33,18 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-103(L)",
     "section": "CSE-1",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-103(L)",
     "section": "CSE-1",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -81,7 +81,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-304(L)",
     "section": "CSE-1",
     "startTime": "12:00",
@@ -89,10 +89,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-304(L)",
     "section": "CSE-1",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
@@ -129,7 +129,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-218",
     "section": "CSE-1",
     "startTime": "12:00",
@@ -153,7 +153,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-314",
     "section": "CSE-1",
     "startTime": "12:00",
@@ -161,18 +161,18 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-207",
     "section": "CSE-1",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-207",
     "section": "CSE-1",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "COA"
   },
   {
@@ -193,7 +193,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-214",
     "section": "CSE-1",
     "startTime": "12:00",
@@ -201,26 +201,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-007",
     "section": "CSE-1",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-102(L)",
     "section": "CSE-1",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-102(L)",
     "section": "CSE-1",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -241,7 +241,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-212(L)",
     "section": "CSE-2",
     "startTime": "12:00",
@@ -249,26 +249,26 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-212(L)",
     "section": "CSE-2",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-206",
     "section": "CSE-2",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-206",
     "section": "CSE-2",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -297,7 +297,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-109",
     "section": "CSE-2",
     "startTime": "12:00",
@@ -305,18 +305,18 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-201",
     "section": "CSE-2",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "COA"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-201",
     "section": "CSE-2",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ"
   },
   {
@@ -353,7 +353,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-319",
     "section": "CSE-2",
     "startTime": "12:00",
@@ -369,7 +369,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-301",
     "section": "CSE-2",
     "startTime": "12:00",
@@ -377,26 +377,26 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-113",
     "section": "CSE-2",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-003(L)",
     "section": "CSE-2",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-003(L)",
     "section": "CSE-2",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -417,7 +417,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-215",
     "section": "CSE-2",
     "startTime": "12:00",
@@ -425,26 +425,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-215",
     "section": "CSE-2",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-007",
     "section": "CSE-2",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DM"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-007",
     "section": "CSE-2",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "COA"
   },
   {
@@ -481,7 +481,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-319",
     "section": "CSE-3",
     "startTime": "12:00",
@@ -489,10 +489,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-319",
     "section": "CSE-3",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS"
   },
   {
@@ -505,7 +505,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-215",
     "section": "CSE-3",
     "startTime": "12:00",
@@ -513,26 +513,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-215",
     "section": "CSE-3",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-102(L)",
     "section": "CSE-3",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-102(L)",
     "section": "CSE-3",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -561,7 +561,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-114",
     "section": "CSE-3",
     "startTime": "12:00",
@@ -569,18 +569,18 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-006",
     "section": "CSE-3",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DM"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-006",
     "section": "CSE-3",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -601,7 +601,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-315",
     "section": "CSE-3",
     "startTime": "12:00",
@@ -609,26 +609,26 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-315",
     "section": "CSE-3",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "COA"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-102(L)",
     "section": "CSE-3",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-102(L)",
     "section": "CSE-3",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -665,7 +665,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-219",
     "section": "CSE-3",
     "startTime": "12:00",
@@ -689,7 +689,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-302(L)",
     "section": "CSE-4",
     "startTime": "12:00",
@@ -697,26 +697,26 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-302(L)",
     "section": "CSE-4",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-207",
     "section": "CSE-4",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DM"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-207",
     "section": "CSE-4",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS"
   },
   {
@@ -753,7 +753,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-216",
     "section": "CSE-4",
     "startTime": "12:00",
@@ -761,10 +761,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-216",
     "section": "CSE-4",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -777,7 +777,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-309",
     "section": "CSE-4",
     "startTime": "12:00",
@@ -785,18 +785,18 @@
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-304(L)",
     "section": "CSE-4",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-304(L)",
     "section": "CSE-4",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -833,7 +833,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-216",
     "section": "CSE-4",
     "startTime": "12:00",
@@ -841,10 +841,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-216",
     "section": "CSE-4",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -865,7 +865,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-312(L)",
     "section": "CSE-4",
     "startTime": "12:00",
@@ -873,26 +873,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-312(L)",
     "section": "CSE-4",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-008",
     "section": "CSE-4",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "ED|IOC|OB"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-008",
     "section": "CSE-4",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS"
   },
   {
@@ -929,7 +929,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-303(L)",
     "section": "CSE-5",
     "startTime": "12:00",
@@ -937,10 +937,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-303(L)",
     "section": "CSE-5",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
@@ -953,7 +953,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-318",
     "section": "CSE-5",
     "startTime": "12:00",
@@ -961,26 +961,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-211",
     "section": "CSE-5",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "COA"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-103(L)",
     "section": "CSE-5",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-103(L)",
     "section": "CSE-5",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -1001,7 +1001,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-314",
     "section": "CSE-5",
     "startTime": "12:00",
@@ -1009,18 +1009,18 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-007",
     "section": "CSE-5",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OOPJ"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-007",
     "section": "CSE-5",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS"
   },
   {
@@ -1057,7 +1057,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-312(L)",
     "section": "CSE-5",
     "startTime": "12:00",
@@ -1065,10 +1065,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-312(L)",
     "section": "CSE-5",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -1105,7 +1105,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-307",
     "section": "CSE-5",
     "startTime": "12:00",
@@ -1113,10 +1113,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-307",
     "section": "CSE-5",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "COA"
   },
   {
@@ -1129,7 +1129,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-016",
     "section": "CSE-6",
     "startTime": "12:00",
@@ -1137,26 +1137,26 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-207",
     "section": "CSE-6",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-302(L)",
     "section": "CSE-6",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-302(L)",
     "section": "CSE-6",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -1185,7 +1185,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-314",
     "section": "CSE-6",
     "startTime": "12:00",
@@ -1193,10 +1193,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-314",
     "section": "CSE-6",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -1217,7 +1217,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-315",
     "section": "CSE-6",
     "startTime": "12:00",
@@ -1225,26 +1225,26 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-011",
     "section": "CSE-6",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-004(L)",
     "section": "CSE-6",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-004(L)",
     "section": "CSE-6",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -1265,7 +1265,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-102(L)",
     "section": "CSE-6",
     "startTime": "12:00",
@@ -1273,26 +1273,26 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-102(L)",
     "section": "CSE-6",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-208",
     "section": "CSE-6",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-208",
     "section": "CSE-6",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ"
   },
   {
@@ -1329,7 +1329,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-306",
     "section": "CSE-6",
     "startTime": "12:00",
@@ -1337,10 +1337,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-306",
     "section": "CSE-6",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "COA"
   },
   {
@@ -1369,7 +1369,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-314",
     "section": "CSE-7",
     "startTime": "12:00",
@@ -1377,18 +1377,18 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-B-318(L)",
     "section": "CSE-7",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-318(L)",
     "section": "CSE-7",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -1425,7 +1425,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-110",
     "section": "CSE-7",
     "startTime": "12:00",
@@ -1433,10 +1433,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-110",
     "section": "CSE-7",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ"
   },
   {
@@ -1465,7 +1465,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-004(L)",
     "section": "CSE-7",
     "startTime": "12:00",
@@ -1473,10 +1473,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-004(L)",
     "section": "CSE-7",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
@@ -1497,7 +1497,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-306",
     "section": "CSE-7",
     "startTime": "12:00",
@@ -1505,26 +1505,26 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-201",
     "section": "CSE-7",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-103(L)",
     "section": "CSE-7",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-103(L)",
     "section": "CSE-7",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -1545,7 +1545,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-218",
     "section": "CSE-7",
     "startTime": "12:00",
@@ -1553,18 +1553,18 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-009",
     "section": "CSE-7",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-009",
     "section": "CSE-7",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ"
   },
   {
@@ -1593,7 +1593,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-315",
     "section": "CSE-8",
     "startTime": "12:00",
@@ -1601,18 +1601,18 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-208",
     "section": "CSE-8",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "ED|IOC|OB"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-208",
     "section": "CSE-8",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS"
   },
   {
@@ -1641,7 +1641,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-119",
     "section": "CSE-8",
     "startTime": "12:00",
@@ -1649,18 +1649,18 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-206",
     "section": "CSE-8",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "COA"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-206",
     "section": "CSE-8",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS"
   },
   {
@@ -1689,7 +1689,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-015",
     "section": "CSE-8",
     "startTime": "12:00",
@@ -1697,10 +1697,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-015",
     "section": "CSE-8",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -1737,7 +1737,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-004(L)",
     "section": "CSE-8",
     "startTime": "12:00",
@@ -1745,10 +1745,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-004(L)",
     "section": "CSE-8",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
@@ -1761,7 +1761,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-309",
     "section": "CSE-8",
     "startTime": "12:00",
@@ -1769,26 +1769,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-008",
     "section": "CSE-8",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-103(L)",
     "section": "CSE-8",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-103(L)",
     "section": "CSE-8",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -1817,7 +1817,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-316",
     "section": "CSE-9",
     "startTime": "12:00",
@@ -1841,7 +1841,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-218",
     "section": "CSE-9",
     "startTime": "12:00",
@@ -1849,26 +1849,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-213",
     "section": "CSE-9",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OOPJ"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-104(L)",
     "section": "CSE-9",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-104(L)",
     "section": "CSE-9",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -1897,7 +1897,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-008",
     "section": "CSE-9",
     "startTime": "12:00",
@@ -1905,18 +1905,18 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-008",
     "section": "CSE-9",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-008",
     "section": "CSE-9",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS"
   },
   {
@@ -1937,7 +1937,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-102(L)",
     "section": "CSE-9",
     "startTime": "12:00",
@@ -1945,26 +1945,26 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-102(L)",
     "section": "CSE-9",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-209",
     "section": "CSE-9",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-209",
     "section": "CSE-9",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DM"
   },
   {
@@ -2001,7 +2001,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-003(L)",
     "section": "CSE-9",
     "startTime": "12:00",
@@ -2009,10 +2009,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-003(L)",
     "section": "CSE-9",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
@@ -2025,7 +2025,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-304(L)",
     "section": "CSE-10",
     "startTime": "12:00",
@@ -2033,26 +2033,26 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-304(L)",
     "section": "CSE-10",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-209",
     "section": "CSE-10",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "COA"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-209",
     "section": "CSE-10",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DM"
   },
   {
@@ -2089,7 +2089,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-201",
     "section": "CSE-10",
     "startTime": "12:00",
@@ -2129,7 +2129,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-102(L)",
     "section": "CSE-10",
     "startTime": "12:00",
@@ -2137,10 +2137,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-102(L)",
     "section": "CSE-10",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
@@ -2177,7 +2177,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-118",
     "section": "CSE-10",
     "startTime": "12:00",
@@ -2185,10 +2185,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-118",
     "section": "CSE-10",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -2217,7 +2217,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-319",
     "section": "CSE-10",
     "startTime": "12:00",
@@ -2225,18 +2225,18 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-010",
     "section": "CSE-10",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "COA"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-010",
     "section": "CSE-10",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ"
   },
   {
@@ -2273,7 +2273,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-316",
     "section": "CSE-11",
     "startTime": "12:00",
@@ -2281,15 +2281,15 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-316",
     "section": "CSE-11",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "COA"
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-206",
     "section": "CSE-11",
     "startTime": "12:00",
@@ -2297,26 +2297,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-206",
     "section": "CSE-11",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-112(L)",
     "section": "CSE-11",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-112(L)",
     "section": "CSE-11",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -2337,7 +2337,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-006",
     "section": "CSE-11",
     "startTime": "12:00",
@@ -2345,26 +2345,26 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-109",
     "section": "CSE-11",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-202(L)",
     "section": "CSE-11",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-202(L)",
     "section": "CSE-11",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -2401,7 +2401,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-215",
     "section": "CSE-11",
     "startTime": "12:00",
@@ -2409,10 +2409,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-215",
     "section": "CSE-11",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -2449,7 +2449,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-115",
     "section": "CSE-11",
     "startTime": "12:00",
@@ -2457,10 +2457,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-115",
     "section": "CSE-11",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS"
   },
   {
@@ -2497,7 +2497,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-215",
     "section": "CSE-12",
     "startTime": "12:00",
@@ -2505,10 +2505,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-215",
     "section": "CSE-12",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -2545,7 +2545,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-312(L)",
     "section": "CSE-12",
     "startTime": "12:00",
@@ -2553,10 +2553,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-312(L)",
     "section": "CSE-12",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
@@ -2585,7 +2585,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-007",
     "section": "CSE-12",
     "startTime": "12:00",
@@ -2593,18 +2593,18 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-009",
     "section": "CSE-12",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-009",
     "section": "CSE-12",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS"
   },
   {
@@ -2625,7 +2625,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-103(L)",
     "section": "CSE-12",
     "startTime": "12:00",
@@ -2633,31 +2633,31 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-103(L)",
     "section": "CSE-12",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-210",
     "section": "CSE-12",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "COA"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-210",
     "section": "CSE-12",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DM"
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-206",
     "section": "CSE-12",
     "startTime": "12:00",
@@ -2665,26 +2665,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-206",
     "section": "CSE-12",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-212(L)",
     "section": "CSE-12",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-212(L)",
     "section": "CSE-12",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -2705,7 +2705,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-318",
     "section": "CSE-13",
     "startTime": "12:00",
@@ -2713,26 +2713,26 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-210",
     "section": "CSE-13",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "COA"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-314(L)",
     "section": "CSE-13",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-314(L)",
     "section": "CSE-13",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -2761,7 +2761,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-003(L)",
     "section": "CSE-13",
     "startTime": "12:00",
@@ -2769,10 +2769,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-003(L)",
     "section": "CSE-13",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -2809,18 +2809,18 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-B-318(L)",
     "section": "CSE-13",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-318(L)",
     "section": "CSE-13",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -2841,7 +2841,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-013",
     "section": "CSE-13",
     "startTime": "12:00",
@@ -2849,26 +2849,26 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-208",
     "section": "CSE-13",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-104(L)",
     "section": "CSE-13",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-104(L)",
     "section": "CSE-13",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -2889,7 +2889,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-315",
     "section": "CSE-13",
     "startTime": "12:00",
@@ -2897,18 +2897,18 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-208",
     "section": "CSE-13",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "COA"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-208",
     "section": "CSE-13",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS"
   },
   {
@@ -2929,7 +2929,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-006",
     "section": "CSE-14",
     "startTime": "12:00",
@@ -2937,26 +2937,26 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-209",
     "section": "CSE-14",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-202(L)",
     "section": "CSE-14",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-202(L)",
     "section": "CSE-14",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -2985,7 +2985,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-008",
     "section": "CSE-14",
     "startTime": "12:00",
@@ -2993,18 +2993,18 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-207",
     "section": "CSE-14",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "ED|IOC|OB"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-207",
     "section": "CSE-14",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS"
   },
   {
@@ -3041,7 +3041,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-116",
     "section": "CSE-14",
     "startTime": "12:00",
@@ -3049,10 +3049,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-116",
     "section": "CSE-14",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -3089,7 +3089,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-319",
     "section": "CSE-14",
     "startTime": "12:00",
@@ -3097,15 +3097,15 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-319",
     "section": "CSE-14",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ"
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-007",
     "section": "CSE-14",
     "startTime": "12:00",
@@ -3113,26 +3113,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-007",
     "section": "CSE-14",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-106",
     "section": "CSE-14",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "COA"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-106",
     "section": "CSE-14",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DM"
   },
   {
@@ -3169,7 +3169,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-118(L)",
     "section": "CSE-15",
     "startTime": "12:00",
@@ -3177,15 +3177,15 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-118(L)",
     "section": "CSE-15",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-308",
     "section": "CSE-15",
     "startTime": "12:00",
@@ -3193,26 +3193,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-308",
     "section": "CSE-15",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-208",
     "section": "CSE-15",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "COA"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-208",
     "section": "CSE-15",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS"
   },
   {
@@ -3233,7 +3233,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-009",
     "section": "CSE-15",
     "startTime": "12:00",
@@ -3241,26 +3241,26 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-110",
     "section": "CSE-15",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-202(L)",
     "section": "CSE-15",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-202(L)",
     "section": "CSE-15",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -3281,7 +3281,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-104(L)",
     "section": "CSE-15",
     "startTime": "12:00",
@@ -3289,26 +3289,26 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-104(L)",
     "section": "CSE-15",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-211",
     "section": "CSE-15",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-211",
     "section": "CSE-15",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -3345,7 +3345,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-302(L)",
     "section": "CSE-15",
     "startTime": "12:00",
@@ -3353,10 +3353,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-302(L)",
     "section": "CSE-15",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
@@ -3377,7 +3377,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-008",
     "section": "CSE-16",
     "startTime": "12:00",
@@ -3385,26 +3385,26 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-211",
     "section": "CSE-16",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-203(L)",
     "section": "CSE-16",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-203(L)",
     "section": "CSE-16",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -3433,7 +3433,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-209",
     "section": "CSE-16",
     "startTime": "12:00",
@@ -3441,10 +3441,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-209",
     "section": "CSE-16",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -3481,7 +3481,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-203(L)",
     "section": "CSE-16",
     "startTime": "12:00",
@@ -3489,10 +3489,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-203(L)",
     "section": "CSE-16",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -3513,7 +3513,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-016",
     "section": "CSE-16",
     "startTime": "12:00",
@@ -3521,18 +3521,18 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-B-318(L)",
     "section": "CSE-16",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-318(L)",
     "section": "CSE-16",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -3553,7 +3553,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-104(L)",
     "section": "CSE-16",
     "startTime": "12:00",
@@ -3561,26 +3561,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-104(L)",
     "section": "CSE-16",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-107",
     "section": "CSE-16",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-107",
     "section": "CSE-16",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -3617,7 +3617,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-003(L)",
     "section": "CSE-17",
     "startTime": "12:00",
@@ -3625,10 +3625,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-003(L)",
     "section": "CSE-17",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -3649,7 +3649,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-104(L)",
     "section": "CSE-17",
     "startTime": "12:00",
@@ -3657,26 +3657,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-104(L)",
     "section": "CSE-17",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-209",
     "section": "CSE-17",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-209",
     "section": "CSE-17",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "COA"
   },
   {
@@ -3697,7 +3697,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-013",
     "section": "CSE-17",
     "startTime": "12:00",
@@ -3705,26 +3705,26 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-013",
     "section": "CSE-17",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "ED|IOC|OB"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-203(L)",
     "section": "CSE-17",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-203(L)",
     "section": "CSE-17",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -3761,7 +3761,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-115",
     "section": "CSE-17",
     "startTime": "12:00",
@@ -3769,10 +3769,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-115",
     "section": "CSE-17",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -3793,7 +3793,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-006",
     "section": "CSE-17",
     "startTime": "12:00",
@@ -3801,10 +3801,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-006",
     "section": "CSE-17",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -3841,7 +3841,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-015",
     "section": "CSE-18",
     "startTime": "12:00",
@@ -3881,7 +3881,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-102(L)",
     "section": "CSE-18",
     "startTime": "12:00",
@@ -3889,10 +3889,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-102(L)",
     "section": "CSE-18",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -3913,7 +3913,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-104(L)",
     "section": "CSE-18",
     "startTime": "12:00",
@@ -3921,26 +3921,26 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-104(L)",
     "section": "CSE-18",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-010",
     "section": "CSE-18",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DM"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-010",
     "section": "CSE-18",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ"
   },
   {
@@ -3953,7 +3953,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-018(L)",
     "section": "CSE-18",
     "startTime": "12:00",
@@ -3961,26 +3961,26 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-018(L)",
     "section": "CSE-18",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-213",
     "section": "CSE-18",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "ED|IOC|OB"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-213",
     "section": "CSE-18",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DM"
   },
   {
@@ -4017,7 +4017,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-116",
     "section": "CSE-18",
     "startTime": "12:00",
@@ -4025,10 +4025,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-116",
     "section": "CSE-18",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -4049,7 +4049,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-004(L)",
     "section": "CSE-19",
     "startTime": "12:00",
@@ -4057,26 +4057,26 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-004(L)",
     "section": "CSE-19",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-211",
     "section": "CSE-19",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "COA"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-211",
     "section": "CSE-19",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DM"
   },
   {
@@ -4105,7 +4105,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-306",
     "section": "CSE-19",
     "startTime": "12:00",
@@ -4113,10 +4113,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-306",
     "section": "CSE-19",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS"
   },
   {
@@ -4145,7 +4145,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-114(L)",
     "section": "CSE-19",
     "startTime": "12:00",
@@ -4153,10 +4153,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-114(L)",
     "section": "CSE-19",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -4185,7 +4185,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-008",
     "section": "CSE-19",
     "startTime": "12:00",
@@ -4193,18 +4193,18 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-301",
     "section": "CSE-19",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "COA"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-301",
     "section": "CSE-19",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -4241,7 +4241,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-015",
     "section": "CSE-19",
     "startTime": "12:00",
@@ -4249,10 +4249,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-015",
     "section": "CSE-19",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -4265,7 +4265,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-213",
     "section": "CSE-20",
     "startTime": "12:00",
@@ -4273,26 +4273,26 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-213",
     "section": "CSE-20",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OOPJ"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-204(L)",
     "section": "CSE-20",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-204(L)",
     "section": "CSE-20",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -4321,7 +4321,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-009",
     "section": "CSE-20",
     "startTime": "12:00",
@@ -4329,18 +4329,18 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-B-103(L)",
     "section": "CSE-20",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-103(L)",
     "section": "CSE-20",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -4369,7 +4369,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-017",
     "section": "CSE-20",
     "startTime": "12:00",
@@ -4377,10 +4377,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-017",
     "section": "CSE-20",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS"
   },
   {
@@ -4417,7 +4417,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-114(L)",
     "section": "CSE-20",
     "startTime": "12:00",
@@ -4425,10 +4425,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-114(L)",
     "section": "CSE-20",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -4449,7 +4449,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-114(L)",
     "section": "CSE-20",
     "startTime": "12:00",
@@ -4457,26 +4457,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-114(L)",
     "section": "CSE-20",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-108",
     "section": "CSE-20",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "COA"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-108",
     "section": "CSE-20",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DM"
   },
   {
@@ -4513,7 +4513,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-322",
     "section": "CSE-21",
     "startTime": "12:00",
@@ -4537,7 +4537,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-318(L)",
     "section": "CSE-21",
     "startTime": "12:00",
@@ -4545,26 +4545,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-318(L)",
     "section": "CSE-21",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-210",
     "section": "CSE-21",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DM"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-210",
     "section": "CSE-21",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS"
   },
   {
@@ -4585,7 +4585,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-020",
     "section": "CSE-21",
     "startTime": "12:00",
@@ -4593,26 +4593,26 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-111",
     "section": "CSE-21",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-204(L)",
     "section": "CSE-21",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-204(L)",
     "section": "CSE-21",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -4633,7 +4633,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-020",
     "section": "CSE-21",
     "startTime": "12:00",
@@ -4641,26 +4641,26 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-306",
     "section": "CSE-21",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DM"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-306",
     "section": "CSE-21",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-306",
     "section": "CSE-21",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "COA"
   },
   {
@@ -4689,7 +4689,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-214(L)",
     "section": "CSE-21",
     "startTime": "12:00",
@@ -4697,10 +4697,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-214(L)",
     "section": "CSE-21",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
@@ -4721,7 +4721,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-102(L)",
     "section": "CSE-22",
     "startTime": "12:00",
@@ -4729,26 +4729,26 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-102(L)",
     "section": "CSE-22",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-213",
     "section": "CSE-22",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-213",
     "section": "CSE-22",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS"
   },
   {
@@ -4785,7 +4785,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-104(L)",
     "section": "CSE-22",
     "startTime": "12:00",
@@ -4793,15 +4793,15 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-104(L)",
     "section": "CSE-22",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-115",
     "section": "CSE-22",
     "startTime": "12:00",
@@ -4809,26 +4809,26 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-115",
     "section": "CSE-22",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-212(L)",
     "section": "CSE-22",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-212(L)",
     "section": "CSE-22",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -4857,7 +4857,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-113",
     "section": "CSE-22",
     "startTime": "12:00",
@@ -4865,18 +4865,18 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-202(L)",
     "section": "CSE-22",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-202(L)",
     "section": "CSE-22",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -4897,7 +4897,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-013",
     "section": "CSE-22",
     "startTime": "12:00",
@@ -4905,26 +4905,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-013",
     "section": "CSE-22",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-116",
     "section": "CSE-22",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-116",
     "section": "CSE-22",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS"
   },
   {
@@ -4953,7 +4953,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-103(L)",
     "section": "CSE-23",
     "startTime": "12:00",
@@ -4961,10 +4961,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-103(L)",
     "section": "CSE-23",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
@@ -4985,7 +4985,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-114(L)",
     "section": "CSE-23",
     "startTime": "12:00",
@@ -4993,26 +4993,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-114(L)",
     "section": "CSE-23",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-211",
     "section": "CSE-23",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-211",
     "section": "CSE-23",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DM"
   },
   {
@@ -5033,7 +5033,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-113",
     "section": "CSE-23",
     "startTime": "12:00",
@@ -5041,26 +5041,26 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-201",
     "section": "CSE-23",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "ED|IOC|OB"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-302(L)",
     "section": "CSE-23",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-302(L)",
     "section": "CSE-23",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -5089,7 +5089,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-308",
     "section": "CSE-23",
     "startTime": "12:00",
@@ -5097,10 +5097,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-308",
     "section": "CSE-23",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -5121,7 +5121,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-010",
     "section": "CSE-23",
     "startTime": "12:00",
@@ -5129,26 +5129,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-010",
     "section": "CSE-23",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "COA"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-104(L)",
     "section": "CSE-23",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-104(L)",
     "section": "CSE-23",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -5217,7 +5217,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-309",
     "section": "CSE-24",
     "startTime": "12:00",
@@ -5225,10 +5225,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-309",
     "section": "CSE-24",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -5249,7 +5249,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-204(L)",
     "section": "CSE-24",
     "startTime": "12:00",
@@ -5257,26 +5257,26 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-204(L)",
     "section": "CSE-24",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-011",
     "section": "CSE-24",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "COA"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-011",
     "section": "CSE-24",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS"
   },
   {
@@ -5297,7 +5297,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-116",
     "section": "CSE-24",
     "startTime": "12:00",
@@ -5305,26 +5305,26 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-209",
     "section": "CSE-24",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-203(L)",
     "section": "CSE-24",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-203(L)",
     "section": "CSE-24",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -5345,7 +5345,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-118(L)",
     "section": "CSE-24",
     "startTime": "12:00",
@@ -5353,26 +5353,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-118(L)",
     "section": "CSE-24",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-322",
     "section": "CSE-24",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "COA"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-322",
     "section": "CSE-24",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ"
   },
   {
@@ -5385,7 +5385,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-313",
     "section": "CSE-25",
     "startTime": "12:00",
@@ -5393,18 +5393,18 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-301",
     "section": "CSE-25",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "COA"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-301",
     "section": "CSE-25",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DM"
   },
   {
@@ -5441,7 +5441,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-018(L)",
     "section": "CSE-25",
     "startTime": "12:00",
@@ -5449,10 +5449,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-018(L)",
     "section": "CSE-25",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -5489,7 +5489,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-118(L)",
     "section": "CSE-25",
     "startTime": "12:00",
@@ -5497,10 +5497,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-118(L)",
     "section": "CSE-25",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
@@ -5521,7 +5521,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-117",
     "section": "CSE-25",
     "startTime": "12:00",
@@ -5529,26 +5529,26 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-117",
     "section": "CSE-25",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-204(L)",
     "section": "CSE-25",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-204(L)",
     "section": "CSE-25",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -5569,7 +5569,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-202(L)",
     "section": "CSE-25",
     "startTime": "12:00",
@@ -5577,26 +5577,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-202(L)",
     "section": "CSE-25",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-110",
     "section": "CSE-25",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-110",
     "section": "CSE-25",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DM"
   },
   {
@@ -5617,7 +5617,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-016",
     "section": "CSE-26",
     "startTime": "12:00",
@@ -5625,26 +5625,26 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-306",
     "section": "CSE-26",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-212(L)",
     "section": "CSE-26",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-212(L)",
     "section": "CSE-26",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -5665,7 +5665,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-017",
     "section": "CSE-26",
     "startTime": "12:00",
@@ -5673,18 +5673,18 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-203(L)",
     "section": "CSE-26",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-203(L)",
     "section": "CSE-26",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -5721,7 +5721,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-116",
     "section": "CSE-26",
     "startTime": "12:00",
@@ -5729,10 +5729,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-116",
     "section": "CSE-26",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ"
   },
   {
@@ -5761,7 +5761,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-017",
     "section": "CSE-26",
     "startTime": "12:00",
@@ -5769,10 +5769,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-017",
     "section": "CSE-26",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS"
   },
   {
@@ -5793,7 +5793,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-203(L)",
     "section": "CSE-26",
     "startTime": "12:00",
@@ -5801,26 +5801,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-203(L)",
     "section": "CSE-26",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-111",
     "section": "CSE-26",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DM"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-111",
     "section": "CSE-26",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "COA"
   },
   {
@@ -5849,7 +5849,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-218(L)",
     "section": "CSE-27",
     "startTime": "12:00",
@@ -5857,10 +5857,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-218(L)",
     "section": "CSE-27",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
@@ -5881,7 +5881,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-203(L)",
     "section": "CSE-27",
     "startTime": "12:00",
@@ -5889,26 +5889,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-203(L)",
     "section": "CSE-27",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-213",
     "section": "CSE-27",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "ED|IOC|OB"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-213",
     "section": "CSE-27",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DM"
   },
   {
@@ -5929,7 +5929,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-117",
     "section": "CSE-27",
     "startTime": "12:00",
@@ -5937,26 +5937,26 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-117",
     "section": "CSE-27",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-303(L)",
     "section": "CSE-27",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-303(L)",
     "section": "CSE-27",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -5993,7 +5993,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-118(L)",
     "section": "CSE-27",
     "startTime": "12:00",
@@ -6001,10 +6001,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-118(L)",
     "section": "CSE-27",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -6033,7 +6033,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-016",
     "section": "CSE-27",
     "startTime": "12:00",
@@ -6041,10 +6041,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-016",
     "section": "CSE-27",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -6065,7 +6065,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-206",
     "section": "CSE-28",
     "startTime": "12:00",
@@ -6073,26 +6073,26 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-206",
     "section": "CSE-28",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-214(L)",
     "section": "CSE-28",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-214(L)",
     "section": "CSE-28",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -6129,7 +6129,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-007",
     "section": "CSE-28",
     "startTime": "12:00",
@@ -6169,7 +6169,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-213",
     "section": "CSE-28",
     "startTime": "12:00",
@@ -6201,7 +6201,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-213",
     "section": "CSE-28",
     "startTime": "12:00",
@@ -6209,18 +6209,18 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-212(L)",
     "section": "CSE-28",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-212(L)",
     "section": "CSE-28",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -6241,7 +6241,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-020",
     "section": "CSE-28",
     "startTime": "12:00",
@@ -6249,26 +6249,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-011",
     "section": "CSE-28",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-112(L)",
     "section": "CSE-28",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-112(L)",
     "section": "CSE-28",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -6305,7 +6305,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-215",
     "section": "CSE-29",
     "startTime": "12:00",
@@ -6313,10 +6313,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-215",
     "section": "CSE-29",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS"
   },
   {
@@ -6337,7 +6337,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-115",
     "section": "CSE-29",
     "startTime": "12:00",
@@ -6345,26 +6345,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-306",
     "section": "CSE-29",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OOPJ"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-204(L)",
     "section": "CSE-29",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-204(L)",
     "section": "CSE-29",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -6393,7 +6393,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-120",
     "section": "CSE-29",
     "startTime": "12:00",
@@ -6401,18 +6401,18 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-101",
     "section": "CSE-29",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "COA"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-101",
     "section": "CSE-29",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DM"
   },
   {
@@ -6481,7 +6481,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-204(L)",
     "section": "CSE-29",
     "startTime": "12:00",
@@ -6489,10 +6489,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-204(L)",
     "section": "CSE-29",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -6521,7 +6521,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-302(L)",
     "section": "CSE-30",
     "startTime": "12:00",
@@ -6529,10 +6529,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-302(L)",
     "section": "CSE-30",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -6569,7 +6569,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-118(L)",
     "section": "CSE-30",
     "startTime": "12:00",
@@ -6577,10 +6577,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-118(L)",
     "section": "CSE-30",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
@@ -6601,7 +6601,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-122",
     "section": "CSE-30",
     "startTime": "12:00",
@@ -6609,18 +6609,18 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-106",
     "section": "CSE-30",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DM"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-106",
     "section": "CSE-30",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "COA"
   },
   {
@@ -6641,7 +6641,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-215",
     "section": "CSE-30",
     "startTime": "12:00",
@@ -6649,26 +6649,26 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-210",
     "section": "CSE-30",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "ED|IOC|OB"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-302(L)",
     "section": "CSE-30",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-302(L)",
     "section": "CSE-30",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -6705,7 +6705,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-212(L)",
     "section": "CSE-30",
     "startTime": "12:00",
@@ -6713,10 +6713,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-212(L)",
     "section": "CSE-30",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
@@ -6745,7 +6745,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-020",
     "section": "CSE-31",
     "startTime": "12:00",
@@ -6753,18 +6753,18 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-104(L)",
     "section": "CSE-31",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-104(L)",
     "section": "CSE-31",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -6801,7 +6801,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-204(L)",
     "section": "CSE-31",
     "startTime": "12:00",
@@ -6809,10 +6809,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-204(L)",
     "section": "CSE-31",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
@@ -6841,7 +6841,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-202(L)",
     "section": "CSE-31",
     "startTime": "12:00",
@@ -6849,10 +6849,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-202(L)",
     "section": "CSE-31",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
@@ -6873,7 +6873,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-216",
     "section": "CSE-31",
     "startTime": "12:00",
@@ -6881,18 +6881,18 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-308",
     "section": "CSE-31",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "ED|IOC|OB"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-308",
     "section": "CSE-31",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS"
   },
   {
@@ -6913,7 +6913,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-116",
     "section": "CSE-31",
     "startTime": "12:00",
@@ -6921,26 +6921,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-101",
     "section": "CSE-31",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-202(L)",
     "section": "CSE-31",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-202(L)",
     "section": "CSE-31",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -6961,7 +6961,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-114(L)",
     "section": "CSE-32",
     "startTime": "12:00",
@@ -6969,26 +6969,26 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-114(L)",
     "section": "CSE-32",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-307",
     "section": "CSE-32",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "ED|IOC|OB"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-307",
     "section": "CSE-32",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ"
   },
   {
@@ -7009,7 +7009,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-120",
     "section": "CSE-32",
     "startTime": "12:00",
@@ -7017,18 +7017,18 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-212(L)",
     "section": "CSE-32",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-212(L)",
     "section": "CSE-32",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -7065,7 +7065,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-215",
     "section": "CSE-32",
     "startTime": "12:00",
@@ -7073,10 +7073,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-215",
     "section": "CSE-32",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS"
   },
   {
@@ -7113,7 +7113,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-015",
     "section": "CSE-32",
     "startTime": "12:00",
@@ -7137,7 +7137,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-117",
     "section": "CSE-32",
     "startTime": "12:00",
@@ -7145,26 +7145,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-106",
     "section": "CSE-32",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-203(L)",
     "section": "CSE-32",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-203(L)",
     "section": "CSE-32",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -7201,7 +7201,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-208",
     "section": "CSE-33",
     "startTime": "12:00",
@@ -7209,10 +7209,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-208",
     "section": "CSE-33",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "COA"
   },
   {
@@ -7233,7 +7233,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-122",
     "section": "CSE-33",
     "startTime": "12:00",
@@ -7241,26 +7241,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-308",
     "section": "CSE-33",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-302(L)",
     "section": "CSE-33",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-302(L)",
     "section": "CSE-33",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -7289,7 +7289,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-216",
     "section": "CSE-33",
     "startTime": "12:00",
@@ -7297,18 +7297,18 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-107",
     "section": "CSE-33",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DM"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-107",
     "section": "CSE-33",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "COA"
   },
   {
@@ -7337,7 +7337,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-318",
     "section": "CSE-33",
     "startTime": "12:00",
@@ -7345,10 +7345,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-318",
     "section": "CSE-33",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "COA"
   },
   {
@@ -7377,7 +7377,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-304(L)",
     "section": "CSE-33",
     "startTime": "12:00",
@@ -7385,10 +7385,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-304(L)",
     "section": "CSE-33",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -7409,7 +7409,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-116",
     "section": "CSE-34",
     "startTime": "12:00",
@@ -7417,26 +7417,26 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-307",
     "section": "CSE-34",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-303(L)",
     "section": "CSE-34",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-303(L)",
     "section": "CSE-34",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -7465,7 +7465,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-116",
     "section": "CSE-34",
     "startTime": "12:00",
@@ -7473,10 +7473,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-116",
     "section": "CSE-34",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS"
   },
   {
@@ -7505,7 +7505,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-222",
     "section": "CSE-34",
     "startTime": "12:00",
@@ -7513,10 +7513,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-222",
     "section": "CSE-34",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ"
   },
   {
@@ -7545,7 +7545,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-217",
     "section": "CSE-34",
     "startTime": "12:00",
@@ -7553,18 +7553,18 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-303(L)",
     "section": "CSE-34",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-303(L)",
     "section": "CSE-34",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -7585,7 +7585,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-122",
     "section": "CSE-34",
     "startTime": "12:00",
@@ -7593,26 +7593,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-107",
     "section": "CSE-34",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DM"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-204(L)",
     "section": "CSE-34",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-204(L)",
     "section": "CSE-34",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -7649,7 +7649,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-115",
     "section": "CSE-35",
     "startTime": "12:00",
@@ -7657,10 +7657,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-115",
     "section": "CSE-35",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -7681,7 +7681,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-212(L)",
     "section": "CSE-35",
     "startTime": "12:00",
@@ -7689,26 +7689,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-212(L)",
     "section": "CSE-35",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-301",
     "section": "CSE-35",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-301",
     "section": "CSE-35",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -7737,7 +7737,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-217",
     "section": "CSE-35",
     "startTime": "12:00",
@@ -7745,18 +7745,18 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-102(L)",
     "section": "CSE-35",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-102(L)",
     "section": "CSE-35",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -7785,7 +7785,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-120",
     "section": "CSE-35",
     "startTime": "12:00",
@@ -7793,10 +7793,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-120",
     "section": "CSE-35",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "COA"
   },
   {
@@ -7833,7 +7833,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-113",
     "section": "CSE-35",
     "startTime": "12:00",
@@ -7865,7 +7865,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-203(L)",
     "section": "CSE-36",
     "startTime": "12:00",
@@ -7873,10 +7873,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-203(L)",
     "section": "CSE-36",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -7913,7 +7913,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-218(L)",
     "section": "CSE-36",
     "startTime": "12:00",
@@ -7921,10 +7921,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-218(L)",
     "section": "CSE-36",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
@@ -7945,7 +7945,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-220",
     "section": "CSE-36",
     "startTime": "12:00",
@@ -7953,18 +7953,18 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-108",
     "section": "CSE-36",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-108",
     "section": "CSE-36",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ"
   },
   {
@@ -7985,7 +7985,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-203(L)",
     "section": "CSE-36",
     "startTime": "12:00",
@@ -7993,26 +7993,26 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-203(L)",
     "section": "CSE-36",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-309",
     "section": "CSE-36",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DM"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-309",
     "section": "CSE-36",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS"
   },
   {
@@ -8049,7 +8049,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-120",
     "section": "CSE-36",
     "startTime": "12:00",
@@ -8057,10 +8057,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-120",
     "section": "CSE-36",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -8081,7 +8081,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-122",
     "section": "CSE-37",
     "startTime": "12:00",
@@ -8089,26 +8089,26 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-308",
     "section": "CSE-37",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-304(L)",
     "section": "CSE-37",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-304(L)",
     "section": "CSE-37",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -8145,7 +8145,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-214(L)",
     "section": "CSE-37",
     "startTime": "12:00",
@@ -8153,10 +8153,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-214(L)",
     "section": "CSE-37",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
@@ -8185,7 +8185,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-313",
     "section": "CSE-37",
     "startTime": "12:00",
@@ -8193,10 +8193,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-313",
     "section": "CSE-37",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS"
   },
   {
@@ -8217,7 +8217,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-222",
     "section": "CSE-37",
     "startTime": "12:00",
@@ -8225,26 +8225,26 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-222",
     "section": "CSE-37",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "ED|IOC|OB"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-310",
     "section": "CSE-37",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-310",
     "section": "CSE-37",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "COA"
   },
   {
@@ -8265,7 +8265,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-006",
     "section": "CSE-37",
     "startTime": "12:00",
@@ -8273,18 +8273,18 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-B-318(L)",
     "section": "CSE-37",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-318(L)",
     "section": "CSE-37",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -8305,7 +8305,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-312(L)",
     "section": "CSE-38",
     "startTime": "12:00",
@@ -8313,26 +8313,26 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-312(L)",
     "section": "CSE-38",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-308",
     "section": "CSE-38",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "ED|IOC|OB"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-308",
     "section": "CSE-38",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DM"
   },
   {
@@ -8353,7 +8353,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-302(L)",
     "section": "CSE-38",
     "startTime": "12:00",
@@ -8361,26 +8361,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-302(L)",
     "section": "CSE-38",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-306",
     "section": "CSE-38",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DM"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-306",
     "section": "CSE-38",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -8417,7 +8417,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-315",
     "section": "CSE-38",
     "startTime": "12:00",
@@ -8457,7 +8457,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-009",
     "section": "CSE-38",
     "startTime": "12:00",
@@ -8465,10 +8465,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-009",
     "section": "CSE-38",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ"
   },
   {
@@ -8481,7 +8481,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-016",
     "section": "CSE-38",
     "startTime": "12:00",
@@ -8489,26 +8489,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-108",
     "section": "CSE-38",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "COA"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-302(L)",
     "section": "CSE-38",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-302(L)",
     "section": "CSE-38",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -8537,7 +8537,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-202(L)",
     "section": "CSE-39",
     "startTime": "12:00",
@@ -8545,10 +8545,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-202(L)",
     "section": "CSE-39",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -8569,7 +8569,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-220",
     "section": "CSE-39",
     "startTime": "12:00",
@@ -8577,18 +8577,18 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-307",
     "section": "CSE-39",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "ED|IOC|OB"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-307",
     "section": "CSE-39",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DM"
   },
   {
@@ -8609,7 +8609,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-316",
     "section": "CSE-39",
     "startTime": "12:00",
@@ -8617,26 +8617,26 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-316",
     "section": "CSE-39",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-312(L)",
     "section": "CSE-39",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-312(L)",
     "section": "CSE-39",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -8657,7 +8657,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-204(L)",
     "section": "CSE-39",
     "startTime": "12:00",
@@ -8665,26 +8665,26 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-204(L)",
     "section": "CSE-39",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-311",
     "section": "CSE-39",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "COA"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-311",
     "section": "CSE-39",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ"
   },
   {
@@ -8721,7 +8721,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-018(L)",
     "section": "CSE-39",
     "startTime": "12:00",
@@ -8729,10 +8729,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-018(L)",
     "section": "CSE-39",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
@@ -8761,26 +8761,26 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-309",
     "section": "CSE-40",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "COA"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-304(L)",
     "section": "CSE-40",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-304(L)",
     "section": "CSE-40",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -8809,7 +8809,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-303(L)",
     "section": "CSE-40",
     "startTime": "12:00",
@@ -8817,10 +8817,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-303(L)",
     "section": "CSE-40",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
@@ -8857,7 +8857,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-103(L)",
     "section": "CSE-40",
     "startTime": "12:00",
@@ -8865,10 +8865,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-103(L)",
     "section": "CSE-40",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
@@ -8905,7 +8905,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-010",
     "section": "CSE-40",
     "startTime": "12:00",
@@ -8913,10 +8913,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-010",
     "section": "CSE-40",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -8945,18 +8945,18 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-109",
     "section": "CSE-40",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-109",
     "section": "CSE-40",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "COA"
   },
   {
@@ -8993,7 +8993,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-117",
     "section": "CSE-41",
     "startTime": "12:00",
@@ -9001,10 +9001,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-117",
     "section": "CSE-41",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ"
   },
   {
@@ -9025,7 +9025,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-113",
     "section": "CSE-41",
     "startTime": "12:00",
@@ -9033,26 +9033,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-310",
     "section": "CSE-41",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OOPJ"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-303(L)",
     "section": "CSE-41",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-303(L)",
     "section": "CSE-41",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -9073,7 +9073,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-317",
     "section": "CSE-41",
     "startTime": "12:00",
@@ -9081,26 +9081,26 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-206",
     "section": "CSE-41",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-003(L)",
     "section": "CSE-41",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-003(L)",
     "section": "CSE-41",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -9121,7 +9121,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-212(L)",
     "section": "CSE-41",
     "startTime": "12:00",
@@ -9129,10 +9129,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-212(L)",
     "section": "CSE-41",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -9169,7 +9169,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-213",
     "section": "CSE-41",
     "startTime": "12:00",
@@ -9177,10 +9177,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-213",
     "section": "CSE-41",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ"
   },
   {
@@ -9209,7 +9209,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-217",
     "section": "CSE-42",
     "startTime": "12:00",
@@ -9249,7 +9249,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-014",
     "section": "CSE-42",
     "startTime": "12:00",
@@ -9257,10 +9257,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-014",
     "section": "CSE-42",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -9281,7 +9281,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-018(L)",
     "section": "CSE-42",
     "startTime": "12:00",
@@ -9289,26 +9289,26 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-018(L)",
     "section": "CSE-42",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-109",
     "section": "CSE-42",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "COA"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-109",
     "section": "CSE-42",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DM"
   },
   {
@@ -9329,7 +9329,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-316",
     "section": "CSE-42",
     "startTime": "12:00",
@@ -9337,26 +9337,26 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-211",
     "section": "CSE-42",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-304(L)",
     "section": "CSE-42",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-304(L)",
     "section": "CSE-42",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -9393,7 +9393,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-304(L)",
     "section": "CSE-42",
     "startTime": "12:00",
@@ -9401,10 +9401,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-304(L)",
     "section": "CSE-42",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
@@ -9425,7 +9425,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-220",
     "section": "CSE-43",
     "startTime": "12:00",
@@ -9433,18 +9433,18 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-310",
     "section": "CSE-43",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DM"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-310",
     "section": "CSE-43",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS"
   },
   {
@@ -9481,7 +9481,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-213",
     "section": "CSE-43",
     "startTime": "12:00",
@@ -9489,10 +9489,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-213",
     "section": "CSE-43",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -9529,18 +9529,18 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-103(L)",
     "section": "CSE-43",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-103(L)",
     "section": "CSE-43",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -9561,7 +9561,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-214(L)",
     "section": "CSE-43",
     "startTime": "12:00",
@@ -9569,26 +9569,26 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-214(L)",
     "section": "CSE-43",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-313",
     "section": "CSE-43",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "ED|IOC|OB"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-313",
     "section": "CSE-43",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "COA"
   },
   {
@@ -9601,7 +9601,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-216",
     "section": "CSE-43",
     "startTime": "12:00",
@@ -9609,26 +9609,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-110",
     "section": "CSE-43",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-304(L)",
     "section": "CSE-43",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-304(L)",
     "section": "CSE-43",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -9649,7 +9649,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-018(L)",
     "section": "CSE-44",
     "startTime": "12:00",
@@ -9657,26 +9657,26 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-018(L)",
     "section": "CSE-44",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-311",
     "section": "CSE-44",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-311",
     "section": "CSE-44",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -9697,7 +9697,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-315",
     "section": "CSE-44",
     "startTime": "12:00",
@@ -9705,26 +9705,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-311",
     "section": "CSE-44",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-304(L)",
     "section": "CSE-44",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-304(L)",
     "section": "CSE-44",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -9753,7 +9753,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-322",
     "section": "CSE-44",
     "startTime": "12:00",
@@ -9761,10 +9761,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-322",
     "section": "CSE-44",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS"
   },
   {
@@ -9801,7 +9801,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-006",
     "section": "CSE-44",
     "startTime": "12:00",
@@ -9833,26 +9833,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-111",
     "section": "CSE-44",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "COA"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-312(L)",
     "section": "CSE-44",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-312(L)",
     "section": "CSE-44",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -9889,7 +9889,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-204(L)",
     "section": "CSE-45",
     "startTime": "12:00",
@@ -9897,10 +9897,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-204(L)",
     "section": "CSE-45",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
@@ -9929,7 +9929,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-216",
     "section": "CSE-45",
     "startTime": "12:00",
@@ -9937,10 +9937,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-216",
     "section": "CSE-45",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -9961,7 +9961,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-006",
     "section": "CSE-45",
     "startTime": "12:00",
@@ -9969,26 +9969,26 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-207",
     "section": "CSE-45",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-102(L)",
     "section": "CSE-45",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-102(L)",
     "section": "CSE-45",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -10001,7 +10001,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-220",
     "section": "CSE-45",
     "startTime": "12:00",
@@ -10009,26 +10009,26 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-213",
     "section": "CSE-45",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "COA"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-312(L)",
     "section": "CSE-45",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-312(L)",
     "section": "CSE-45",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -10057,7 +10057,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-222",
     "section": "CSE-45",
     "startTime": "12:00",
@@ -10065,18 +10065,18 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-B-003(L)",
     "section": "CSE-45",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-003(L)",
     "section": "CSE-45",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -10097,7 +10097,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-315",
     "section": "CSE-46",
     "startTime": "12:00",
@@ -10105,18 +10105,18 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-313",
     "section": "CSE-46",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "COA"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-313",
     "section": "CSE-46",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DM"
   },
   {
@@ -10153,7 +10153,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-217",
     "section": "CSE-46",
     "startTime": "12:00",
@@ -10193,7 +10193,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-218(L)",
     "section": "CSE-46",
     "startTime": "12:00",
@@ -10201,10 +10201,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-218(L)",
     "section": "CSE-46",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
@@ -10225,7 +10225,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-218(L)",
     "section": "CSE-46",
     "startTime": "12:00",
@@ -10233,26 +10233,26 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-218(L)",
     "section": "CSE-46",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-019",
     "section": "CSE-46",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DM"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-019",
     "section": "CSE-46",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS"
   },
   {
@@ -10281,26 +10281,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-113",
     "section": "CSE-46",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "COA"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-004(L)",
     "section": "CSE-46",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-004(L)",
     "section": "CSE-46",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -10321,7 +10321,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-212(L)",
     "section": "CSE-47",
     "startTime": "12:00",
@@ -10329,10 +10329,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-212(L)",
     "section": "CSE-47",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
@@ -10361,7 +10361,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-117",
     "section": "CSE-47",
     "startTime": "12:00",
@@ -10369,18 +10369,18 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-309",
     "section": "CSE-47",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-309",
     "section": "CSE-47",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "COA"
   },
   {
@@ -10401,7 +10401,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-007",
     "section": "CSE-47",
     "startTime": "12:00",
@@ -10409,26 +10409,26 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-208",
     "section": "CSE-47",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-103(L)",
     "section": "CSE-47",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-103(L)",
     "section": "CSE-47",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -10465,7 +10465,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-122",
     "section": "CSE-47",
     "startTime": "12:00",
@@ -10473,10 +10473,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-122",
     "section": "CSE-47",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -10505,7 +10505,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-315",
     "section": "CSE-47",
     "startTime": "12:00",
@@ -10513,18 +10513,18 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-B-102(L)",
     "section": "CSE-47",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-102(L)",
     "section": "CSE-47",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -10553,7 +10553,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-317",
     "section": "CSE-48",
     "startTime": "12:00",
@@ -10561,10 +10561,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-317",
     "section": "CSE-48",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -10601,7 +10601,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-114",
     "section": "CSE-48",
     "startTime": "12:00",
@@ -10609,10 +10609,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-114",
     "section": "CSE-48",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ"
   },
   {
@@ -10633,7 +10633,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-214(L)",
     "section": "CSE-48",
     "startTime": "12:00",
@@ -10641,26 +10641,26 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-214(L)",
     "section": "CSE-48",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-110",
     "section": "CSE-48",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-110",
     "section": "CSE-48",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -10681,7 +10681,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-322",
     "section": "CSE-48",
     "startTime": "12:00",
@@ -10689,26 +10689,26 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-307",
     "section": "CSE-48",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DM"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-003(L)",
     "section": "CSE-48",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-003(L)",
     "section": "CSE-48",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -10737,7 +10737,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-103(L)",
     "section": "CSE-48",
     "startTime": "12:00",
@@ -10745,10 +10745,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-103(L)",
     "section": "CSE-48",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
@@ -10777,7 +10777,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-101",
     "section": "CSE-49",
     "startTime": "12:00",
@@ -10785,10 +10785,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-101",
     "section": "CSE-49",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ"
   },
   {
@@ -10809,7 +10809,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-320",
     "section": "CSE-49",
     "startTime": "12:00",
@@ -10817,26 +10817,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-313",
     "section": "CSE-49",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "ED|IOC|OB"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-312(L)",
     "section": "CSE-49",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-312(L)",
     "section": "CSE-49",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -10865,7 +10865,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-212(L)",
     "section": "CSE-49",
     "startTime": "12:00",
@@ -10873,10 +10873,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-212(L)",
     "section": "CSE-49",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
@@ -10897,7 +10897,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-006",
     "section": "CSE-49",
     "startTime": "12:00",
@@ -10905,26 +10905,26 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-B-101",
     "section": "CSE-49",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DM"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-101",
     "section": "CSE-49",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-101",
     "section": "CSE-49",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "COA"
   },
   {
@@ -10953,26 +10953,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-201",
     "section": "CSE-49",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "COA"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-103(L)",
     "section": "CSE-49",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-103(L)",
     "section": "CSE-49",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -11001,7 +11001,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-320",
     "section": "CSE-50",
     "startTime": "12:00",
@@ -11009,18 +11009,18 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-102(L)",
     "section": "CSE-50",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-102(L)",
     "section": "CSE-50",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -11041,7 +11041,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-322",
     "section": "CSE-50",
     "startTime": "12:00",
@@ -11049,26 +11049,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-B-019",
     "section": "CSE-50",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DM"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-003(L)",
     "section": "CSE-50",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-003(L)",
     "section": "CSE-50",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -11097,7 +11097,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-209",
     "section": "CSE-50",
     "startTime": "12:00",
@@ -11105,10 +11105,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-209",
     "section": "CSE-50",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -11137,7 +11137,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-115",
     "section": "CSE-50",
     "startTime": "12:00",
@@ -11145,10 +11145,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-115",
     "section": "CSE-50",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -11169,7 +11169,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-303(L)",
     "section": "CSE-50",
     "startTime": "12:00",
@@ -11177,26 +11177,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-303(L)",
     "section": "CSE-50",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-113",
     "section": "CSE-50",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "ED|IOC|OB"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-113",
     "section": "CSE-50",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DM"
   },
   {
@@ -11217,7 +11217,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-214(L)",
     "section": "CSE-51",
     "startTime": "12:00",
@@ -11225,10 +11225,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-214(L)",
     "section": "CSE-51",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -11249,7 +11249,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-006",
     "section": "CSE-51",
     "startTime": "12:00",
@@ -11257,26 +11257,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-B-101",
     "section": "CSE-51",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "COA"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-004(L)",
     "section": "CSE-51",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-004(L)",
     "section": "CSE-51",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -11305,7 +11305,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-210",
     "section": "CSE-51",
     "startTime": "12:00",
@@ -11313,18 +11313,18 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-B-104(L)",
     "section": "CSE-51",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-104(L)",
     "section": "CSE-51",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -11345,7 +11345,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-007",
     "section": "CSE-51",
     "startTime": "12:00",
@@ -11353,26 +11353,26 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-309",
     "section": "CSE-51",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "ED|IOC|OB"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-004(L)",
     "section": "CSE-51",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-004(L)",
     "section": "CSE-51",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -11409,7 +11409,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-217",
     "section": "CSE-51",
     "startTime": "12:00",
@@ -11417,10 +11417,10 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-217",
     "section": "CSE-51",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -11441,7 +11441,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-006",
     "section": "CSE-52",
     "startTime": "12:00",
@@ -11449,26 +11449,26 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-B-019",
     "section": "CSE-52",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DM"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-003(L)",
     "section": "CSE-52",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-003(L)",
     "section": "CSE-52",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -11505,7 +11505,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-317",
     "section": "CSE-52",
     "startTime": "12:00",
@@ -11513,10 +11513,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-317",
     "section": "CSE-52",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "COA"
   },
   {
@@ -11553,7 +11553,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-219",
     "section": "CSE-52",
     "startTime": "12:00",
@@ -11585,7 +11585,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-320",
     "section": "CSE-52",
     "startTime": "12:00",
@@ -11593,10 +11593,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-320",
     "section": "CSE-52",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ"
   },
   {
@@ -11625,26 +11625,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-206",
     "section": "CSE-52",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-104(L)",
     "section": "CSE-52",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-104(L)",
     "section": "CSE-52",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -11673,7 +11673,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-104(L)",
     "section": "CSE-53",
     "startTime": "12:00",
@@ -11681,10 +11681,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-104(L)",
     "section": "CSE-53",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS(L)"
   },
   {
@@ -11713,7 +11713,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-308",
     "section": "CSE-53",
     "startTime": "12:00",
@@ -11721,18 +11721,18 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-B-102(L)",
     "section": "CSE-53",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-102(L)",
     "section": "CSE-53",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -11753,7 +11753,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-306",
     "section": "CSE-53",
     "startTime": "12:00",
@@ -11761,26 +11761,26 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-306",
     "section": "CSE-53",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-114(L)",
     "section": "CSE-53",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-114(L)",
     "section": "CSE-53",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ(L)"
   },
   {
@@ -11817,7 +11817,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-313",
     "section": "CSE-53",
     "startTime": "12:00",
@@ -11825,10 +11825,10 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-313",
     "section": "CSE-53",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "ED|IOC|OB"
   },
   {
@@ -11865,7 +11865,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-320",
     "section": "CSE-53",
     "startTime": "12:00",
@@ -11905,7 +11905,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-222",
     "section": "CSE-54",
     "startTime": "12:00",
@@ -11913,10 +11913,10 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-222",
     "section": "CSE-54",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS"
   },
   {
@@ -11945,7 +11945,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-313",
     "section": "CSE-54",
     "startTime": "12:00",
@@ -11953,10 +11953,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-313",
     "section": "CSE-54",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -11977,7 +11977,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-302(L)",
     "section": "CSE-54",
     "startTime": "12:00",
@@ -11985,26 +11985,26 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-302(L)",
     "section": "CSE-54",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OOPJ(L)"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-111",
     "section": "CSE-54",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DM"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-111",
     "section": "CSE-54",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS"
   },
   {
@@ -12025,7 +12025,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-008",
     "section": "CSE-54",
     "startTime": "12:00",
@@ -12033,26 +12033,26 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-008",
     "section": "CSE-54",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "COA"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-102(L)",
     "section": "CSE-54",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-102(L)",
     "section": "CSE-54",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -12089,7 +12089,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-316",
     "section": "CSE-54",
     "startTime": "12:00",
@@ -12105,7 +12105,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-313",
     "section": "IT-1",
     "startTime": "12:00",
@@ -12113,26 +12113,26 @@
   },
   {
     "day": "MON",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-313",
     "section": "IT-1",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-004(L)",
     "section": "IT-1",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-004(L)",
     "section": "IT-1",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -12169,7 +12169,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-108",
     "section": "IT-1",
     "startTime": "12:00",
@@ -12177,10 +12177,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-108",
     "section": "IT-1",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DBMS"
   },
   {
@@ -12201,7 +12201,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-208",
     "section": "IT-1",
     "startTime": "12:00",
@@ -12209,10 +12209,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-208",
     "section": "IT-1",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS"
   },
   {
@@ -12233,7 +12233,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-214",
     "section": "IT-1",
     "startTime": "12:00",
@@ -12241,50 +12241,50 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-B-106",
     "section": "IT-1",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "IND4"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-106",
     "section": "IT-1",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DM"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-106",
     "section": "IT-1",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS"
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-207",
     "section": "IT-1",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-114(L)",
     "section": "IT-1",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-B-114(L)",
     "section": "IT-1",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -12305,7 +12305,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-114",
     "section": "IT-2",
     "startTime": "12:00",
@@ -12313,18 +12313,18 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-201",
     "section": "IT-2",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DM"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-201",
     "section": "IT-2",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS"
   },
   {
@@ -12337,7 +12337,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-115",
     "section": "IT-2",
     "startTime": "12:00",
@@ -12345,26 +12345,26 @@
   },
   {
     "day": "TUE",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-209",
     "section": "IT-2",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "TUE",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-003(L)",
     "section": "IT-2",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "TUE",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-003(L)",
     "section": "IT-2",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -12385,7 +12385,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-215",
     "section": "IT-2",
     "startTime": "12:00",
@@ -12393,26 +12393,26 @@
   },
   {
     "day": "WED",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-010",
     "section": "IT-2",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "ITC"
   },
   {
     "day": "WED",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-003(L)",
     "section": "IT-2",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "WED",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-003(L)",
     "section": "IT-2",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -12449,7 +12449,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-116",
     "section": "IT-2",
     "startTime": "12:00",
@@ -12457,26 +12457,26 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-116",
     "section": "IT-2",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS"
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-B-212(L)",
     "section": "IT-2",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "VT(L)"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-B-212(L)",
     "section": "IT-2",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "VT(L)"
   },
   {
@@ -12497,26 +12497,26 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-113",
     "section": "CSCE-1",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OS"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-003(L)",
     "section": "CSCE-1",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS(L)"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-003(L)",
     "section": "CSCE-1",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "DBMS(L)"
   },
   {
@@ -12553,7 +12553,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-116",
     "section": "CSCE-1",
     "startTime": "12:00",
@@ -12561,10 +12561,10 @@
   },
   {
     "day": "TUE",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-116",
     "section": "CSCE-1",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "DM"
   },
   {
@@ -12585,7 +12585,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-216",
     "section": "CSCE-1",
     "startTime": "12:00",
@@ -12593,10 +12593,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-216",
     "section": "CSCE-1",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "OS"
   },
   {
@@ -12617,7 +12617,7 @@
   },
   {
     "day": "THU",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-104(L)",
     "section": "CSCE-1",
     "startTime": "12:00",
@@ -12625,26 +12625,26 @@
   },
   {
     "day": "THU",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-104(L)",
     "section": "CSCE-1",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-201",
     "section": "CSCE-1",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "IS"
   },
   {
     "day": "THU",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-201",
     "section": "CSCE-1",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OOPJ"
   },
   {
@@ -12673,26 +12673,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-006",
     "section": "CSCE-1",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "OOPJ"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-003(L)",
     "section": "CSCE-1",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-003(L)",
     "section": "CSCE-1",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -12713,7 +12713,7 @@
   },
   {
     "day": "MON",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-116",
     "section": "CSSE-1",
     "startTime": "12:00",
@@ -12721,26 +12721,26 @@
   },
   {
     "day": "MON",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-206",
     "section": "CSSE-1",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "MON",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-312(L)",
     "section": "CSSE-1",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "OS(L)"
   },
   {
     "day": "MON",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-312(L)",
     "section": "CSSE-1",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "OS(L)"
   },
   {
@@ -12777,7 +12777,7 @@
   },
   {
     "day": "TUE",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-118",
     "section": "CSSE-1",
     "startTime": "12:00",
@@ -12809,7 +12809,7 @@
   },
   {
     "day": "WED",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-A-214",
     "section": "CSSE-1",
     "startTime": "12:00",
@@ -12817,10 +12817,10 @@
   },
   {
     "day": "WED",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-A-214",
     "section": "CSSE-1",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "EECO"
   },
   {
@@ -12841,18 +12841,18 @@
   },
   {
     "day": "THU",
-    "endTime": "04:00",
+    "endTime": "16:00",
     "room": "C25-A-206",
     "section": "CSSE-1",
-    "startTime": "03:00",
+    "startTime": "15:00",
     "subject": "DBMS"
   },
   {
     "day": "THU",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-206",
     "section": "CSSE-1",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DM"
   },
   {
@@ -12865,7 +12865,7 @@
   },
   {
     "day": "FRI",
-    "endTime": "01:00",
+    "endTime": "13:00",
     "room": "C25-B-218(L)",
     "section": "CSSE-1",
     "startTime": "12:00",
@@ -12873,26 +12873,26 @@
   },
   {
     "day": "FRI",
-    "endTime": "02:00",
+    "endTime": "14:00",
     "room": "C25-B-218(L)",
     "section": "CSSE-1",
-    "startTime": "01:00",
+    "startTime": "13:00",
     "subject": "VT(L)"
   },
   {
     "day": "FRI",
-    "endTime": "05:00",
+    "endTime": "17:00",
     "room": "C25-A-006",
     "section": "CSSE-1",
-    "startTime": "04:00",
+    "startTime": "16:00",
     "subject": "DBMS"
   },
   {
     "day": "FRI",
-    "endTime": "06:00",
+    "endTime": "18:00",
     "room": "C25-A-006",
     "section": "CSSE-1",
-    "startTime": "05:00",
+    "startTime": "17:00",
     "subject": "PSS"
   }
 ]

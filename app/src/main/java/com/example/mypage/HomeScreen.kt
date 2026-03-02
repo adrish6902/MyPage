@@ -310,11 +310,22 @@ fun HomeScreen(
                             false
                         }
 
+                        val storageFormatter = DateTimeFormatter.ofPattern("HH:mm")
+                        val displayFormatter = DateTimeFormatter.ofPattern("hh:mm a")
+
+                        val startTimeFormatted =
+                            LocalTime.parse(item.startTime, storageFormatter)
+                                .format(displayFormatter)
+
+                        val endTimeFormatted =
+                            LocalTime.parse(item.endTime, storageFormatter)
+                                .format(displayFormatter)
+
                         RoutineCard(
                             item = RoutineItem(
                                 subject = item.subject,
-                                startTime = item.startTime,
-                                endTime = item.endTime,
+                                startTime = startTimeFormatted,
+                                endTime = endTimeFormatted,
                                 room = item.room ?: "-"
                             ),
                             isRunning = isRunning,
