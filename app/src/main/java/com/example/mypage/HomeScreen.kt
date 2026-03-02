@@ -1,70 +1,112 @@
 package com.example.mypage
 
+import android.content.Context
 import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.material3.*
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Person
-import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowDropDown
+import androidx.compose.material.icons.filled.Person
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.graphicsLayer
-import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import com.example.mypage.model.ClassItem
+import kotlinx.coroutines.delay
 import java.time.DayOfWeek
 import java.time.LocalDate
+import java.time.LocalTime
+import androidx.compose.ui.graphics.luminance
+import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.platform.LocalHapticFeedback
+import android.os.Build
+import android.os.VibrationEffect
+import android.os.Vibrator
+import androidx.compose.ui.graphics.Color
+import java.time.format.DateTimeFormatter
+import java.util.Locale
+
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun HomeScreen() {
-    val routineData = mapOf(
+fun HomeScreen(
+    allClasses: List<ClassItem>,
+    themeMode: String,
+    onThemeChange: (String) -> Unit
+) {
 
-        "Mon" to listOf(
-            RoutineItem("OS", "08:00", "09:00", "C25-B-117"),
-            RoutineItem("COA", "09:00", "10:00", "C25-B-117"),
-            RoutineItem("OOPJ", "10:00", "11:00", "C25-B-117"),
-            RoutineItem("DBMS", "11:00", "12:00", "C25-B-115"),
-            RoutineItem("IEC", "12:00", "01:00", "C25-B-115"),
-            RoutineItem("DM", "01:00", "02:00", "C25-B-115")
-        ),
+    val haptic = LocalHapticFeedback.current
 
-        "Tue" to listOf(
-            RoutineItem("DM", "10:00", "11:00", "C25-B-213"),
-            RoutineItem("OS", "11:00", "12:00", "C25-B-206"),
-            RoutineItem("DBMS(L)", "12:00", "02:00", "C25-B-212(l)"),
-            RoutineItem("DBMS", "04:00", "05:00", "C25-A-301"),
-            RoutineItem("IEC", "05:00", "06:00", "C25-A-301")
-        ),
+    var showNotificationDialog by remember { mutableStateOf(false) }
+    var showCustomInput by remember { mutableStateOf(false) }
 
-        "Wed" to listOf(
-            RoutineItem("OS", "10:00", "11:00", "C25-B-217"),
-            RoutineItem("DM", "11:00", "12:00", "C25-B-217"),
-            RoutineItem("OOPJ", "12:00", "01:00", "C25-B-217"),
-            RoutineItem("VT", "03:00", "05:00", "-"),
-        ),
+    val context = LocalContext.current
+    val prefs = context.getSharedPreferences("MyPagePrefs", Context.MODE_PRIVATE)
 
-        "Thu" to listOf(
-            RoutineItem("OS(L)", "9:00", "11:00", "C25-B-018(L)"),
-            RoutineItem("DM", "11:00", "12:00", "C25-B-120"),
-            RoutineItem("IEC", "12:00", "01:00", "C25-B-120"),
-            RoutineItem("COA", "01:00", "02:00", "C25-B-120")
-        ),
+    var showProfileMenu by remember { mutableStateOf(false) }
+    var showThemeDialog by remember { mutableStateOf(false) }
 
-        "Fri" to listOf(
-            RoutineItem("DBMS", "08:00", "09:00", "C25-A-206"),
-            RoutineItem("OOPJ(L)", "09:00", "11:00", "C25-B-102(L)"),
-            RoutineItem("OOPJ", "11:00", "12:00", "C25-B-113"),
-            RoutineItem("DM", "12:00", "01:00", "C25-B-113")
+    var showSaveDialog by remember { mutableStateOf(false) }
+    var pendingSection by remember { mutableStateOf<String?>(null) }
+
+    val sections = remember(allClasses) {
+        allClasses.map { it.section }.distinct()
+    }
+
+    var persistedSection by remember {
+        mutableStateOf(
+            prefs.getString("selected_section", sections.firstOrNull())
+                ?: sections.firstOrNull().orEmpty()
         )
+    }
+
+    var selectedSection by remember { mutableStateOf(persistedSection) }
+
+    LaunchedEffect(sections) {
+        if (persistedSection !in sections && sections.isNotEmpty()) {
+            selectedSection = sections.first()
+        }
+    }
+
+    var currentTime by remember { mutableStateOf(LocalTime.now()) }
+
+    LaunchedEffect(Unit) {
+        while (true) {
+            currentTime = LocalTime.now()
+            delay(60_000)
+        }
+    }
+
+    val sectionClasses = remember(selectedSection) {
+        allClasses.filter { it.section == selectedSection }
+    }
+
+    val routineData = remember(sectionClasses) {
+        sectionClasses.groupBy { it.day }
+    }
+
+    val days = listOf("SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT")
+
+    val today = LocalDate.now()
+
+    val sunday = today.minusDays(
+        today.dayOfWeek.value % 7L
     )
 
-    val days = listOf("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat")
-    val today = LocalDate.now().dayOfWeek
-    val initialIndex = when (today) {
+    val weekDates = (0..6).map { offset ->
+        sunday.plusDays(offset.toLong())
+    }
+
+    val initialIndex = when (LocalDate.now().dayOfWeek) {
         DayOfWeek.SUNDAY -> 0
         DayOfWeek.MONDAY -> 1
         DayOfWeek.TUESDAY -> 2
@@ -73,64 +115,117 @@ fun HomeScreen() {
         DayOfWeek.FRIDAY -> 5
         DayOfWeek.SATURDAY -> 6
     }
+
     var selectedDay by remember { mutableStateOf(initialIndex) }
+
     val selectedDayName = days[selectedDay]
     val todayClasses = routineData[selectedDayName] ?: emptyList()
 
-    Scaffold{ padding ->
+    Scaffold(
+        contentWindowInsets = WindowInsets.safeDrawing,
+        topBar = {
+            CenterAlignedTopAppBar(
+                title = {
+                    SectionSelector(
+                        sections = sections,
+                        selectedSection = selectedSection,
+                        onSectionSelected = { section ->
+                            if (section != selectedSection) {
+                                selectedSection = section
+                                pendingSection = section
+                                showSaveDialog = true
+                            }
+                        }
+                    )
+                },
+                actions = {
+                    Box {
+                        IconButton(
+                            onClick = {
+                                showProfileMenu = true
+                                performStrongHaptic(context)
+                            }
+                        ) {
+                            Icon(
+                                imageVector = Icons.Default.Person,
+                                contentDescription = "Profile"
+                            )
+                        }
+
+                        DropdownMenu(
+                            expanded = showProfileMenu,
+                            onDismissRequest = { showProfileMenu = false }
+                        ) {
+                            DropdownMenuItem(
+                                text = { Text("Theme") },
+                                onClick = {
+                                    showProfileMenu = false
+                                    showThemeDialog = true
+                                }
+                            )
+
+                            DropdownMenuItem(
+                                text = { Text("Notifications") },
+                                onClick = {
+                                    showProfileMenu = false
+                                    showNotificationDialog = true
+                                }
+                            )
+                        }
+                    }
+                }
+            )
+        }
+    ) { padding ->
 
         Column(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(padding)
+                .pointerInput(Unit) {
+                    var totalDrag = 0f
 
-        ) {
-            Surface(
-                modifier = Modifier
-                    .fillMaxWidth(),
-                color = MaterialTheme.colorScheme.surface
-            ) {
-                Row(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(horizontal = 20.dp, vertical = 20.dp),
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
+                    detectDragGestures(
+                        onDrag = { change, dragAmount ->
+                            totalDrag += dragAmount.x
+                        },
+                        onDragEnd = {
 
-                    Text(
-                        text = "MyPage",
-                        style = MaterialTheme.typography.titleLarge,
-                        modifier = Modifier.fillMaxWidth(),
-                        textAlign = TextAlign.Center,
-                        color = MaterialTheme.colorScheme.secondary
+                            if (totalDrag > 150) {
+                                // Swiped Right
+                                if (selectedDay > 0) {
+                                    selectedDay--
+                                    performStrongHaptic(context)
+                                }
+                            } else if (totalDrag < -150) {
+                                // Swiped Left
+                                if (selectedDay < 6) {
+                                    selectedDay++
+                                    performStrongHaptic(context)
+                                }
+                            }
+
+                            totalDrag = 0f
+                        }
                     )
-
-//                    IconButton(onClick = { }) {
-//                        Icon(
-//                            imageVector = Icons.Default.Person,
-//                            contentDescription = "User"
-//                        )
-//                    }
                 }
-            }
+        ) {
 
-            HorizontalDivider(
-                thickness = 1.5.dp,
-                color = MaterialTheme.colorScheme.outlineVariant
-            )
+            HorizontalDivider()
 
-            Spacer(modifier = Modifier.height(20.dp))
+            Spacer(modifier = Modifier.height(24.dp))
 
-            Card(
+            Surface(
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(horizontal = 8.dp),
-                shape = RoundedCornerShape(20.dp),
-                colors = CardDefaults.cardColors(
-                    containerColor = MaterialTheme.colorScheme.surfaceContainerHigh
+                shape = RoundedCornerShape(24.dp),
+                tonalElevation = 2.dp,
+                border = BorderStroke(
+                    1.dp,
+                    MaterialTheme.colorScheme.outlineVariant
                 ),
-                elevation = CardDefaults.cardElevation(4.dp)
+                color = MaterialTheme.colorScheme.surfaceContainerLow
             ) {
                 Row(
                     modifier = Modifier
@@ -139,15 +234,29 @@ fun HomeScreen() {
                     horizontalArrangement = Arrangement.spacedBy(4.dp)
                 ) {
                     days.forEachIndexed { index, day ->
+
+                        val displayText = if (selectedDay == index) {
+                            weekDates[index].dayOfMonth
+                                .toString()
+                                .padStart(2, '0')
+                        } else {
+                            day
+                        }
+
                         Box(
                             modifier = Modifier
                                 .weight(1f)
                                 .aspectRatio(1f)
                         ) {
                             DayCircle(
-                                text = day,
+                                text = displayText,
                                 isSelected = selectedDay == index,
-                                onClick = { selectedDay = index }
+                                onClick = {
+                                    if (selectedDay != index) {
+                                        selectedDay = index
+                                        performStrongHaptic(context)
+                                    }
+                                }
                             )
                         }
                     }
@@ -158,14 +267,14 @@ fun HomeScreen() {
 
             if (todayClasses.isEmpty()) {
                 Box(
-                    modifier = Modifier
-                        .fillMaxSize(),
+                    modifier = Modifier.fillMaxSize(),
                     contentAlignment = Alignment.Center
                 ) {
                     Text(
                         text = "No Classes Today",
-                        style = MaterialTheme.typography.headlineSmall,
-                        color = MaterialTheme.colorScheme.secondary
+                        style = MaterialTheme.typography.headlineMedium,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.85f)
                     )
                 }
             } else {
@@ -174,41 +283,493 @@ fun HomeScreen() {
                     contentPadding = PaddingValues(horizontal = 16.dp),
                     verticalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
-                    items(todayClasses) { item ->
-                        RoutineCard(item)
+                    items(
+                        items = todayClasses,
+                        key = { it.subject + it.startTime }
+                    ) { item ->
+
+                        val isTodaySelected =
+                            weekDates[selectedDay] == LocalDate.now()
+
+                        val isRunning = if (isTodaySelected) {
+
+                            val formatter = DateTimeFormatter.ofPattern("HH:mm")
+
+                            var start = LocalTime.parse(item.startTime, formatter)
+                            var end = LocalTime.parse(item.endTime, formatter)
+
+                            // 🔥 Fix 12-hour data without AM/PM
+                            if (end.isBefore(start)) {
+                                end = end.plusHours(12)
+                            }
+
+                            !currentTime.isBefore(start) &&
+                                    currentTime.isBefore(end)
+
+                        } else {
+                            false
+                        }
+
+                        RoutineCard(
+                            item = RoutineItem(
+                                subject = item.subject,
+                                startTime = item.startTime,
+                                endTime = item.endTime,
+                                room = item.room ?: "-"
+                            ),
+                            isRunning = isRunning,
+                            onClick = {}
+                        )
                     }
                 }
             }
+        }
 
+        // THEME DIALOG
+        if (showThemeDialog) {
+            AlertDialog(
+                onDismissRequest = { showThemeDialog = false },
+                title = { Text("Select Theme") },
+                text = {
+                    Column {
+
+                        ThemeOption(
+                            text = "System Default",
+                            isSelected = themeMode == "system",
+                            onClick = {
+                                onThemeChange("system")
+                                showThemeDialog = false
+                            }
+                        )
+
+                        ThemeOption(
+                            text = "Light Mode",
+                            isSelected = themeMode == "light",
+                            onClick = {
+                                onThemeChange("light")
+                                showThemeDialog = false
+                            }
+                        )
+
+                        ThemeOption(
+                            text = "Dark Mode",
+                            isSelected = themeMode == "dark",
+                            onClick = {
+                                onThemeChange("dark")
+                                showThemeDialog = false
+                            }
+                        )
+
+                        ThemeOption(
+                            text = "Absolute Dark",
+                            isSelected = themeMode == "amoled",
+                            onClick = {
+                                onThemeChange("amoled")
+                                showThemeDialog = false
+                            }
+                        )
+                    }
+                },
+                confirmButton = {}
+            )
+        }
+
+        if (showCustomInput) {
+
+            var hours by remember { mutableStateOf("") }
+            var minutes by remember { mutableStateOf("") }
+
+            AlertDialog(
+                onDismissRequest = { showCustomInput = false },
+                title = { Text("Custom Reminder Time") },
+                text = {
+
+                    Row(
+                        horizontalArrangement = Arrangement.spacedBy(12.dp)
+                    ) {
+
+                        OutlinedTextField(
+                            value = hours,
+                            onValueChange = {
+                                if (it.all { ch -> ch.isDigit() }) {
+                                    hours = it
+                                }
+                            },
+                            label = { Text("Hours") },
+                            modifier = Modifier.weight(1f)
+                        )
+
+                        OutlinedTextField(
+                            value = minutes,
+                            onValueChange = {
+                                if (it.all { ch -> ch.isDigit() }) {
+                                    minutes = it
+                                }
+                            },
+                            label = { Text("Minutes") },
+                            modifier = Modifier.weight(1f)
+                        )
+                    }
+                },
+                confirmButton = {
+                    TextButton(
+                        onClick = {
+
+                            val h = hours.toIntOrNull() ?: 0
+                            val m = minutes.toIntOrNull() ?: 0
+
+                            val totalMinutes = (h * 60) + m
+
+                            prefs.edit()
+                                .putInt("custom_notify_minutes", totalMinutes)
+                                .apply()
+
+                            showCustomInput = false
+                        }
+                    ) {
+                        Text("Save")
+                    }
+                }
+            )
+        }
+
+        if (showNotificationDialog) {
+
+            var selectedOptions by remember {
+                mutableStateOf(
+                    prefs.getStringSet("notify_options", emptySet())
+                        ?: emptySet()
+                )
+            }
+
+            AlertDialog(
+                onDismissRequest = { showNotificationDialog = false },
+                title = { Text("Notify me before") },
+                text = {
+
+                    val savedCustomMinutes =
+                        prefs.getInt("custom_notify_minutes", 0)
+
+                    val customPreviewText =
+                        if (savedCustomMinutes > 0) {
+                            val h = savedCustomMinutes / 60
+                            val m = savedCustomMinutes % 60
+
+                            when {
+                                h > 0 && m > 0 -> "${h}h ${m}m"
+                                h > 0 -> "${h}h"
+                                else -> "${m}m"
+                            }
+                        } else {
+                            null
+                        }
+
+                    Column {
+
+                        NotificationOption(
+                            label = "2 hours",
+                            isChecked = selectedOptions.contains("2h"),
+                            onToggle = {
+                                selectedOptions =
+                                    toggleSelection(selectedOptions, "2h")
+                            }
+                        )
+
+                        NotificationOption(
+                            label = "1 hour",
+                            isChecked = selectedOptions.contains("1h"),
+                            onToggle = {
+                                selectedOptions =
+                                    toggleSelection(selectedOptions, "1h")
+                            }
+                        )
+
+                        NotificationOption(
+                            label = "30 mins",
+                            isChecked = selectedOptions.contains("30m"),
+                            onToggle = {
+                                selectedOptions =
+                                    toggleSelection(selectedOptions, "30m")
+                            }
+                        )
+
+                        NotificationOption(
+                            label = "Custom",
+                            subText = customPreviewText,
+                            isChecked = selectedOptions.contains("custom"),
+                            onToggle = {
+                                selectedOptions = setOf("custom")
+                                showCustomInput = true
+                            }
+                        )
+
+                        NotificationOption(
+                            label = "Never",
+                            isChecked = selectedOptions.contains("never"),
+                            onToggle = {
+                                selectedOptions = setOf("never")
+                            }
+                        )
+                    }
+                },
+                confirmButton = {
+                    TextButton(
+                        onClick = {
+
+                            if (selectedOptions.contains("custom")) {
+
+                                val customMinutes =
+                                    prefs.getInt("custom_notify_minutes", 0)
+
+                                if (customMinutes > 0) {
+                                    prefs.edit()
+                                        .putStringSet("notify_options", setOf("custom"))
+                                        .apply()
+                                }
+
+                            } else {
+
+                                prefs.edit()
+                                    .putStringSet("notify_options", selectedOptions)
+                                    .apply()
+                            }
+
+                            // 🔥 ALWAYS schedule after saving
+                            ReminderScheduler.scheduleTodayReminder(context)
+
+                            showNotificationDialog = false
+                        }
+                    ) {
+                        Text("Save")
+                    }
+                }
+            )
+        }
+
+        if (showSaveDialog && pendingSection != null) {
+            AlertDialog(
+                onDismissRequest = {
+                    showSaveDialog = false
+                    pendingSection = null
+                },
+                title = { Text("Save as default?") },
+                text = {
+                    Text("Do you want to set $pendingSection as your default section?")
+                },
+                confirmButton = {
+                    TextButton(
+                        onClick = {
+
+                            prefs.edit()
+                                .putString("selected_section", pendingSection)
+                                .remove("notify_options")
+                                .remove("custom_notify_minutes")
+                                .apply()
+
+                            // Cancel and reschedule (will effectively cancel since options are cleared)
+                            ReminderScheduler.scheduleTodayReminder(context)
+
+                            persistedSection = pendingSection!!
+                            showSaveDialog = false
+                            pendingSection = null
+                        }
+                    ) {
+                        Text("Save")
+                    }
+                },
+                dismissButton = {
+                    TextButton(
+                        onClick = {
+                            showSaveDialog = false
+                            pendingSection = null
+                        }
+                    ) {
+                        Text("No")
+                    }
+                }
+            )
+        }
+    }
+}
+
+fun performStrongHaptic(context: Context) {
+    val vibrator = context.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+        val effect = VibrationEffect.createOneShot(
+            40, // duration in ms
+            VibrationEffect.DEFAULT_AMPLITUDE
+        )
+        vibrator.vibrate(effect)
+    } else {
+        @Suppress("DEPRECATION")
+        vibrator.vibrate(40)
+    }
+}
+
+@Composable
+fun ThemeOption(
+    text: String,
+    isSelected: Boolean,
+    onClick: () -> Unit
+) {
+    Surface(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(vertical = 6.dp),
+        shape = RoundedCornerShape(16.dp),
+        color = if (isSelected)
+            MaterialTheme.colorScheme.primary.copy(alpha = 0.15f)
+        else
+            MaterialTheme.colorScheme.surfaceContainerHigh,
+        onClick = onClick
+    ) {
+        Text(
+            text = text,
+            modifier = Modifier.padding(vertical = 14.dp, horizontal = 16.dp),
+            style = MaterialTheme.typography.bodyLarge,
+            color = if (isSelected)
+                MaterialTheme.colorScheme.primary
+            else
+                MaterialTheme.colorScheme.onSurface
+        )
+    }
+}
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun SectionSelector(
+    sections: List<String>,
+    selectedSection: String,
+    onSectionSelected: (String) -> Unit
+) {
+
+    val haptic = LocalHapticFeedback.current
+    val context = LocalContext.current
+
+    var expanded by remember { mutableStateOf(false) }
+
+    ExposedDropdownMenuBox(
+        expanded = expanded,
+        onExpandedChange = {
+            if (!expanded) {
+                performStrongHaptic(context)
+            }
+            expanded = !expanded
+        }
+    ) {
+        Surface(
+            modifier = Modifier
+                .menuAnchor()
+                .width(110.dp),
+            shape = RoundedCornerShape(30.dp),
+            tonalElevation = 1.dp,
+            border = BorderStroke(
+                1.dp,
+                MaterialTheme.colorScheme.outline
+            )
+        ) {
+            Row(
+                modifier = Modifier
+                    .padding(horizontal = 14.dp, vertical = 8.dp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                Text(
+                    text = selectedSection,
+                    style = MaterialTheme.typography.bodyMedium
+                )
+
+                Spacer(modifier = Modifier.width(6.dp))
+
+                Icon(
+                    imageVector = Icons.Default.ArrowDropDown,
+                    contentDescription = null
+                )
+            }
+        }
+
+        ExposedDropdownMenu(
+            expanded = expanded,
+            onDismissRequest = { expanded = false },
+            modifier = Modifier.heightIn(max = 300.dp),
+            shape = RoundedCornerShape(20.dp),
+            containerColor = MaterialTheme.colorScheme.surfaceContainerHigh
+        ) {
+            sections.forEach { section ->
+                DropdownMenuItem(
+                    text = { Text(section) },
+                    onClick = {
+                        expanded = false
+                        performStrongHaptic(context)
+                        onSectionSelected(section)
+                    }
+                )
+            }
         }
     }
 }
 @Composable
-fun RoutineCard(item: RoutineItem) {
+fun RoutineCard(
+    item: RoutineItem,
+    isRunning: Boolean = false,
+    modifier: Modifier = Modifier,
+    onClick: () -> Unit = {}
+) {
+
+    val inputFormatter = DateTimeFormatter.ofPattern("HH:mm")
+    val outputFormatter = DateTimeFormatter.ofPattern("hh:mm a")
+
+    val formattedStart = try {
+        LocalTime.parse(item.startTime, inputFormatter)
+            .format(outputFormatter)
+    } catch (e: Exception) {
+        item.startTime
+    }
+
+    val formattedEnd = try {
+        LocalTime.parse(item.endTime, inputFormatter)
+            .format(outputFormatter)
+    } catch (e: Exception) {
+        item.endTime
+    }
 
     Card(
-        modifier = Modifier
+        onClick = onClick,
+        modifier = modifier
             .fillMaxWidth(),
         shape = RoundedCornerShape(20.dp),
         colors = CardDefaults.cardColors(
-            containerColor = MaterialTheme.colorScheme.surfaceContainerHigh
+            containerColor = when {
+                MaterialTheme.colorScheme.background == Color.Black ->
+                    MaterialTheme.colorScheme.surface
+
+                MaterialTheme.colorScheme.background.luminance() > 0.5f ->
+                    MaterialTheme.colorScheme.surface
+
+                else ->
+                    MaterialTheme.colorScheme.surfaceContainerHigh
+            }
         ),
+        border = if (isRunning)
+            BorderStroke(2.dp, MaterialTheme.colorScheme.primary)
+        else null,
         elevation = CardDefaults.cardElevation(
-            defaultElevation = 6.dp
+            defaultElevation = if (isRunning) 14.dp else 6.dp
         )
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 18.dp, vertical = 18.dp),
+                .padding(horizontal = 20.dp, vertical = 24.dp),
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
 
             Column {
                 Text(
                     text = item.subject,
-                    style = MaterialTheme.typography.titleMedium,
-                    color = MaterialTheme.colorScheme.primary.copy(alpha = 0.65f)
+                    style = MaterialTheme.typography.titleLarge,
+                    fontWeight = FontWeight.SemiBold,
+                    color = MaterialTheme.colorScheme.primary.copy(alpha = 0.75f)
                 )
 
                 Spacer(modifier = Modifier.height(8.dp))
@@ -221,14 +782,14 @@ fun RoutineCard(item: RoutineItem) {
             }
 
             Column(horizontalAlignment = Alignment.End) {
-
                 Text(
-                    text = item.startTime,
-                    style = MaterialTheme.typography.titleSmall
+                    text = formattedStart,
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Medium
                 )
 
                 Text(
-                    text = item.endTime,
+                    text = formattedEnd,
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
@@ -242,7 +803,6 @@ fun DayCircle(
     isSelected: Boolean,
     onClick: () -> Unit
 ) {
-
     val scale by animateFloatAsState(
         targetValue = if (isSelected) 1f else 0.95f,
         label = "scaleAnim"
@@ -265,12 +825,83 @@ fun DayCircle(
     ) {
         Box(contentAlignment = Alignment.Center) {
             Text(
-                text = text.take(1), // M T W T F
-                style = MaterialTheme.typography.labelLarge,
+                text = text,
+                style = if (isSelected)
+                    MaterialTheme.typography.titleMedium
+                else
+                    MaterialTheme.typography.labelLarge,
+                fontWeight = if (isSelected)
+                    FontWeight.Bold
+                else
+                    FontWeight.Normal,
                 color = if (isSelected)
                     MaterialTheme.colorScheme.onPrimary
                 else
                     MaterialTheme.colorScheme.onSurface
+            )
+        }
+    }
+}
+
+fun toggleSelection(
+    current: Set<String>,
+    value: String
+): Set<String> {
+
+    val newSet = current.toMutableSet()
+
+    newSet.remove("custom")
+    newSet.remove("never")
+
+    if (newSet.contains(value)) {
+        newSet.remove(value)
+    } else {
+        newSet.add(value)
+    }
+
+    return newSet
+}
+
+@Composable
+fun NotificationOption(
+    label: String,
+    isChecked: Boolean,
+    onToggle: () -> Unit,
+    subText: String? = null
+) {
+    Surface(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(vertical = 6.dp),
+        shape = RoundedCornerShape(16.dp),
+        onClick = onToggle
+    ) {
+        Row(
+            modifier = Modifier
+                .padding(14.dp),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+
+            Column {
+
+                Text(
+                    text = label,
+                    style = MaterialTheme.typography.bodyLarge
+                )
+
+                if (subText != null) {
+                    Text(
+                        text = subText,
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            }
+
+            Checkbox(
+                checked = isChecked,
+                onCheckedChange = { onToggle() }
             )
         }
     }

@@ -13,8 +13,8 @@ android {
         applicationId = "com.example.mypage"
         minSdk = 31
         targetSdk = 36
-        versionCode = 2
-        versionName = "Beta"
+        versionCode = 5
+        versionName = "1.5.0"
     }
 
     buildTypes {
@@ -31,6 +31,7 @@ android {
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            excludes += "META-INF/DEPENDENCIES"
         }
     }
 
@@ -61,4 +62,6 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+    implementation("androidx.compose.material:material-icons-extended")
+    implementation("com.google.code.gson:gson:2.10.1")
 }
