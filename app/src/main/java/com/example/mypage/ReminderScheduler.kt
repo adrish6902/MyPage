@@ -1,5 +1,6 @@
 package com.example.mypage
 
+import android.annotation.SuppressLint
 import android.app.AlarmManager
 import android.app.PendingIntent
 import android.content.Context
@@ -13,34 +14,7 @@ import com.google.gson.reflect.TypeToken
 
 object ReminderScheduler {
 
-    fun scheduleTestReminder(context: Context) {
-
-        val alarmManager =
-            context.getSystemService(Context.ALARM_SERVICE)
-                    as AlarmManager
-
-        val intent =
-            Intent(context, ClassReminderReceiver::class.java)
-
-        val pendingIntent =
-            PendingIntent.getBroadcast(
-                context,
-                9999,
-                intent,
-                PendingIntent.FLAG_UPDATE_CURRENT or
-                        PendingIntent.FLAG_IMMUTABLE
-            )
-
-        val triggerTime =
-            System.currentTimeMillis() + 30_000 // 30 seconds
-
-        alarmManager.setExactAndAllowWhileIdle(
-            AlarmManager.RTC_WAKEUP,
-            triggerTime,
-            pendingIntent
-        )
-    }
-
+    @SuppressLint("ScheduleExactAlarm")
     fun scheduleTodayReminder(context: Context) {
 
         val alarmManager =
@@ -77,7 +51,9 @@ object ReminderScheduler {
             val triggerTime =
                 nextClassTime.minusMinutes(minutesBefore.toLong())
 
-            if (triggerTime.isAfter(LocalDateTime.now())) {
+            val now = LocalDateTime.now().plusSeconds(5)
+
+            if (triggerTime.isAfter(now)) {
 
                 val triggerMillis =
                     triggerTime.atZone(ZoneId.systemDefault())
@@ -147,9 +123,11 @@ object ReminderScheduler {
                     }
                     .sortedBy { java.time.LocalTime.parse(it.startTime) }
 
-            for (classItem in classes) {
+            if (classes.isNotEmpty()) {
 
-                val parts = classItem.startTime.split(":")
+                val firstClass = classes.first()
+
+                val parts = firstClass.startTime.split(":")
                 val hour = parts[0].toInt()
                 val minute = parts[1].toInt()
 

@@ -13,8 +13,8 @@ android {
         applicationId = "com.example.mypage"
         minSdk = 31
         targetSdk = 36
-        versionCode = 5
-        versionName = "1.5.0"
+        versionCode = 6
+        versionName = "2.0.0"
     }
 
     buildTypes {

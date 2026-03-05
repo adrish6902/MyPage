@@ -31,7 +31,22 @@ import androidx.compose.ui.platform.LocalHapticFeedback
 import android.os.Build
 import android.os.VibrationEffect
 import android.os.Vibrator
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.RepeatMode
+import androidx.compose.animation.core.animateFloat
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.slideOutHorizontally
+import androidx.compose.foundation.clickable
+import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.ui.graphics.Color
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
+import kotlinx.coroutines.launch
 import java.time.format.DateTimeFormatter
 import java.util.Locale
 
@@ -41,16 +56,43 @@ import java.util.Locale
 fun HomeScreen(
     allClasses: List<ClassItem>,
     themeMode: String,
-    onThemeChange: (String) -> Unit
+    onThemeChange: (String) -> Unit,
+    isKiitStudent: Boolean
 ) {
 
     val haptic = LocalHapticFeedback.current
 
     var showNotificationDialog by remember { mutableStateOf(false) }
+
+    var editMode by remember { mutableStateOf(false) }
+
     var showCustomInput by remember { mutableStateOf(false) }
+
+    var editingClass by remember { mutableStateOf<CustomClass?>(null) }
+
+    var editBackup by remember { mutableStateOf<List<CustomClass>>(emptyList()) }
 
     val context = LocalContext.current
     val prefs = context.getSharedPreferences("MyPagePrefs", Context.MODE_PRIVATE)
+
+    var customClasses by remember {
+
+        val gson = Gson()
+
+        val savedJson = prefs.getString("custom_classes", null)
+
+        val savedList: List<CustomClass> =
+            if (savedJson != null) {
+                val type = object : TypeToken<List<CustomClass>>() {}.type
+                gson.fromJson(savedJson, type)
+            } else {
+                emptyList()
+            }
+
+        mutableStateOf(savedList)
+    }
+
+    var showAddDialog by remember { mutableStateOf(false) }
 
     var showProfileMenu by remember { mutableStateOf(false) }
     var showThemeDialog by remember { mutableStateOf(false) }
@@ -119,37 +161,148 @@ fun HomeScreen(
     var selectedDay by remember { mutableStateOf(initialIndex) }
 
     val selectedDayName = days[selectedDay]
-    val todayClasses = routineData[selectedDayName] ?: emptyList()
+
+
+    val todayClasses = if (isKiitStudent) {
+        routineData[selectedDayName] ?: emptyList()
+    } else {
+        emptyList()
+    }
+
+    val customForDay = customClasses.filter { it.day == selectedDayName }
+
+    val customConverted = customForDay.mapIndexed { index, it ->
+        ClassItem(
+            subject = it.subject,
+            startTime = it.startTime,
+            endTime = it.endTime,
+            room = it.room,
+            section = "CUSTOM",
+            day = it.day
+        ) to index
+    }
+
+    val untimedCustom =
+        customConverted.filter { it.first.startTime.isBlank() }
+
+    val timedCustom =
+        customConverted.filter { it.first.startTime.isNotBlank() }
+
+    val sortedTimed =
+        timedCustom.sortedBy { it.first.startTime }
+
+    val sortedUntimed =
+        untimedCustom.sortedBy { it.second }
+
+    val combinedClasses =
+        todayClasses.map { it to false } +
+                sortedUntimed.map { it.first to true } +
+                sortedTimed.map { it.first to true }
 
     Scaffold(
         contentWindowInsets = WindowInsets.safeDrawing,
         topBar = {
             CenterAlignedTopAppBar(
-                title = {
-                    SectionSelector(
-                        sections = sections,
-                        selectedSection = selectedSection,
-                        onSectionSelected = { section ->
-                            if (section != selectedSection) {
-                                selectedSection = section
-                                pendingSection = section
-                                showSaveDialog = true
+
+                navigationIcon = {
+
+                    if (!isKiitStudent) {
+
+                        if (!editMode) {
+
+                            Surface(
+                                shape = CircleShape,
+                                tonalElevation = 2.dp,
+                                color = MaterialTheme.colorScheme.surfaceContainerHigh,
+                                onClick = {
+                                    performStrongHaptic(context)
+
+                                    editBackup = customClasses.toList()
+
+                                    editMode = true
+                                }
+                            ) {
+                                Box(
+                                    modifier = Modifier.padding(10.dp),
+                                    contentAlignment = Alignment.Center
+                                ) {
+                                    Icon(
+                                        imageVector = Icons.Default.Edit,
+                                        contentDescription = "Edit Routine"
+                                    )
+                                }
                             }
+
+                        } else {
+
+                            Surface(
+                                shape = RoundedCornerShape(50),
+                                tonalElevation = 2.dp,
+                                color = MaterialTheme.colorScheme.surfaceContainerHigh,
+                                onClick = {
+                                    performStrongHaptic(context)
+
+                                    customClasses = editBackup
+                                    editMode = false
+                                }
+                            ) {
+                                Text(
+                                    text = "Cancel",
+                                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp),
+                                    style = MaterialTheme.typography.bodyMedium
+                                )
+                            }
+
                         }
-                    )
+                    }
+
+                },
+                title = {
+
+                    if (isKiitStudent) {
+
+                        SectionSelector(
+                            sections = sections,
+                            selectedSection = selectedSection,
+                            onSectionSelected = { section ->
+                                if (section != selectedSection) {
+                                    selectedSection = section
+                                    pendingSection = section
+                                    showSaveDialog = true
+                                }
+                            }
+                        )
+
+                    } else {
+
+                        Text(
+                            text = if (editMode) "Edit Mode" else "MyPage",
+                            style = MaterialTheme.typography.titleLarge,
+                            fontWeight = FontWeight.Bold
+                        )
+
+                    }
                 },
                 actions = {
                     Box {
-                        IconButton(
+                        Surface(
+                            shape = CircleShape,
+                            tonalElevation = 2.dp,
+                            color = MaterialTheme.colorScheme.surfaceContainerHigh,
                             onClick = {
                                 showProfileMenu = true
                                 performStrongHaptic(context)
                             }
                         ) {
-                            Icon(
-                                imageVector = Icons.Default.Person,
-                                contentDescription = "Profile"
-                            )
+                            Box(
+                                modifier = Modifier.padding(10.dp),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Icon(
+                                    imageVector = Icons.Default.Person,
+                                    contentDescription = "Profile"
+                                )
+                            }
                         }
 
                         DropdownMenu(
@@ -265,7 +418,7 @@ fun HomeScreen(
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            if (todayClasses.isEmpty()) {
+            if (combinedClasses.isEmpty() && !editMode) {
                 Box(
                     modifier = Modifier.fillMaxSize(),
                     contentAlignment = Alignment.Center
@@ -284,21 +437,27 @@ fun HomeScreen(
                     verticalArrangement = Arrangement.spacedBy(12.dp)
                 ) {
                     items(
-                        items = todayClasses,
-                        key = { it.subject + it.startTime }
-                    ) { item ->
+                        items = combinedClasses,
+                        key = { it.first.subject + it.first.startTime }
+                    ) { pair ->
+
+                        val item = pair.first
+                        val isCustom = pair.second
 
                         val isTodaySelected =
                             weekDates[selectedDay] == LocalDate.now()
 
-                        val isRunning = if (isTodaySelected) {
+                        val isRunning = if (
+                            isTodaySelected &&
+                            item.startTime.isNotBlank() &&
+                            item.endTime.isNotBlank()
+                        ) {
 
                             val formatter = DateTimeFormatter.ofPattern("HH:mm")
 
                             var start = LocalTime.parse(item.startTime, formatter)
                             var end = LocalTime.parse(item.endTime, formatter)
 
-                            // 🔥 Fix 12-hour data without AM/PM
                             if (end.isBefore(start)) {
                                 end = end.plusHours(12)
                             }
@@ -314,24 +473,118 @@ fun HomeScreen(
                         val displayFormatter = DateTimeFormatter.ofPattern("hh:mm a")
 
                         val startTimeFormatted =
-                            LocalTime.parse(item.startTime, storageFormatter)
+                            if (item.startTime.isBlank()) "-"
+                            else LocalTime.parse(item.startTime, storageFormatter)
                                 .format(displayFormatter)
 
                         val endTimeFormatted =
-                            LocalTime.parse(item.endTime, storageFormatter)
+                            if (item.endTime.isBlank()) "-"
+                            else LocalTime.parse(item.endTime, storageFormatter)
                                 .format(displayFormatter)
 
-                        RoutineCard(
-                            item = RoutineItem(
-                                subject = item.subject,
-                                startTime = startTimeFormatted,
-                                endTime = endTimeFormatted,
-                                room = item.room ?: "-"
-                            ),
-                            isRunning = isRunning,
-                            onClick = {}
+                        var visible by remember { mutableStateOf(true) }
+
+                        AnimatedVisibility(
+                            visible = visible,
+                            exit = slideOutHorizontally { it } + fadeOut()
+                        ) {
+
+                            RoutineCard(
+                                item = RoutineItem(
+                                    subject = item.subject,
+                                    startTime = startTimeFormatted,
+                                    endTime = endTimeFormatted,
+                                    room = item.room ?: "-"
+                                ),
+                                isRunning = isRunning,
+                                editMode = editMode,
+                                allowMenu = isCustom,
+                                onDelete = {
+
+                                    visible = false
+
+                                    kotlinx.coroutines.GlobalScope.launch {
+                                        delay(220)
+
+                                        customClasses =
+                                            customClasses.filterNot {
+                                                it.subject == item.subject &&
+                                                        it.startTime == item.startTime &&
+                                                        it.day == item.day
+                                            }
+                                    }
+                                },
+                                onEdit = {
+
+                                    editingClass =
+                                        customClasses.find {
+                                            it.subject == item.subject &&
+                                                    it.startTime == item.startTime &&
+                                                    it.day == item.day
+                                        }
+
+                                    showAddDialog = true
+                                }
+                            )
+                        }
+                    }
+                }
+            }
+        }
+
+        if (editMode) {
+
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(20.dp)
+            ) {
+
+                // Add Button
+                Surface(
+                    modifier = Modifier
+                        .align(Alignment.BottomStart),
+                    shape = RoundedCornerShape(50),
+                    tonalElevation = 4.dp,
+                    onClick = {
+                        showAddDialog = true
+                    }
+                ) {
+                    Row(
+                        modifier = Modifier.padding(horizontal = 18.dp, vertical = 12.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.Add,
+                            contentDescription = "Add Class"
                         )
                     }
+                }
+
+                // Save Button
+                Surface(
+                    modifier = Modifier
+                        .align(Alignment.BottomEnd),
+                    shape = RoundedCornerShape(50),
+                    tonalElevation = 4.dp,
+                    onClick = {
+
+                        val gson = Gson()
+
+                        val json = gson.toJson(customClasses)
+
+                        prefs.edit()
+                            .putString("custom_classes", json)
+                            .apply()
+
+                        editMode = false
+                    }
+                ) {
+                    Text(
+                        text = "Save",
+                        modifier = Modifier.padding(horizontal = 20.dp, vertical = 12.dp),
+                        style = MaterialTheme.typography.bodyLarge
+                    )
                 }
             }
         }
@@ -600,6 +853,222 @@ fun HomeScreen(
                 }
             )
         }
+
+        if (showAddDialog) {
+
+            var subject by remember { mutableStateOf(editingClass?.subject ?: "") }
+            var room by remember { mutableStateOf(editingClass?.room ?: "") }
+
+            var startHour by remember { mutableStateOf("") }
+            var startMinute by remember { mutableStateOf("") }
+            var startAmPm by remember { mutableStateOf("") }
+
+            var endHour by remember { mutableStateOf("") }
+            var endMinute by remember { mutableStateOf("") }
+            var endAmPm by remember { mutableStateOf("") }
+
+            LaunchedEffect(editingClass) {
+
+                editingClass?.let {
+
+                    if (it.startTime.isNotBlank()) {
+
+                        val time = LocalTime.parse(it.startTime)
+                        val hour = time.hour
+                        val minute = time.minute
+
+                        val ampm = if (hour >= 12) "PM" else "AM"
+                        val displayHour =
+                            when {
+                                hour == 0 -> 12
+                                hour > 12 -> hour - 12
+                                else -> hour
+                            }
+
+                        startHour = displayHour.toString().padStart(2,'0')
+                        startMinute = minute.toString().padStart(2,'0')
+                        startAmPm = ampm
+                    }
+
+                    if (it.endTime.isNotBlank()) {
+
+                        val time = LocalTime.parse(it.endTime)
+                        val hour = time.hour
+                        val minute = time.minute
+
+                        val ampm = if (hour >= 12) "PM" else "AM"
+                        val displayHour =
+                            when {
+                                hour == 0 -> 12
+                                hour > 12 -> hour - 12
+                                else -> hour
+                            }
+
+                        endHour = displayHour.toString().padStart(2,'0')
+                        endMinute = minute.toString().padStart(2,'0')
+                        endAmPm = ampm
+                    }
+                }
+            }
+
+            AlertDialog(
+                onDismissRequest = { showAddDialog = false },
+
+                title = {
+                    Text("Add Class")
+                },
+
+                text = {
+
+                    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+
+                        OutlinedTextField(
+                            value = subject,
+                            onValueChange = { subject = it },
+                            label = { Text("Subject Name") }
+                        )
+
+                        OutlinedTextField(
+                            value = room,
+                            onValueChange = { room = it },
+                            label = { Text("Classroom (Optional)") }
+                        )
+
+                        Text(
+                            text = "Start Time",
+                            style = MaterialTheme.typography.titleSmall,
+                            fontWeight = FontWeight.SemiBold
+                        )
+
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween
+                        ) {
+
+                            TimeDropdown(
+                                label = "HH",
+                                options = (1..12).map { it.toString().padStart(2,'0') },
+                                selected = startHour,
+                                onSelect = {
+                                    startHour = it
+
+                                    if (startMinute.isBlank()) startMinute = "00"
+                                    if (startAmPm.isBlank()) startAmPm = "AM"
+                                }
+                            )
+
+                            TimeDropdown(
+                                label = "MM",
+                                options = (0..59).map { it.toString().padStart(2,'0') },
+                                selected = startMinute,
+                                onSelect = { startMinute = it }
+                            )
+
+                            TimeDropdown(
+                                label = "AM/PM",
+                                options = listOf("AM","PM"),
+                                selected = startAmPm,
+                                onSelect = { startAmPm = it }
+                            )
+                        }
+
+                        Text(
+                            text = "End Time",
+                            style = MaterialTheme.typography.titleSmall,
+                            fontWeight = FontWeight.SemiBold
+                        )
+
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween
+                        ) {
+
+                            TimeDropdown(
+                                label = "HH",
+                                options = (1..12).map { it.toString().padStart(2,'0') },
+                                selected = endHour,
+                                onSelect = {
+                                    endHour = it
+
+                                    if (endMinute.isBlank()) endMinute = "00"
+                                    if (endAmPm.isBlank()) endAmPm = "AM"
+                                }
+                            )
+
+                            TimeDropdown(
+                                label = "MM",
+                                options = (0..59).map { it.toString().padStart(2,'0') },
+                                selected = endMinute,
+                                onSelect = { endMinute = it }
+                            )
+
+                            TimeDropdown(
+                                label = "AM/PM",
+                                options = listOf("AM","PM"),
+                                selected = endAmPm,
+                                onSelect = { endAmPm = it }
+                            )
+                        }
+                    }
+                },
+
+                confirmButton = {
+
+                    TextButton(
+                        onClick = {
+
+                            if (subject.isNotBlank()) {
+
+                                val start24 =
+                                    if (startHour.isNotBlank() && startMinute.isNotBlank() && startAmPm.isNotBlank())
+                                        convertTo24Hour(startHour, startMinute, startAmPm)
+                                    else ""
+
+                                val end24 =
+                                    if (endHour.isNotBlank() && endMinute.isNotBlank() && endAmPm.isNotBlank())
+                                        convertTo24Hour(endHour, endMinute, endAmPm)
+                                    else ""
+
+                                val newClass = CustomClass(
+                                    subject = subject,
+                                    room = room.ifBlank { null },
+                                    startTime = start24,
+                                    endTime = end24,
+                                    day = days[selectedDay]
+                                )
+
+                                customClasses =
+                                    if (editingClass != null) {
+
+                                        customClasses.map {
+                                            if (it == editingClass) newClass else it
+                                        }
+
+                                    } else {
+
+                                        customClasses + newClass
+                                    }
+
+                                editingClass = null
+
+                                showAddDialog = false
+                            }
+                        }
+                    ) {
+                        Text("Add")
+                    }
+                },
+
+                dismissButton = {
+
+                    TextButton(
+                        onClick = { showAddDialog = false }
+                    ) {
+                        Text("Cancel")
+                    }
+                }
+            )
+        }
     }
 }
 
@@ -723,7 +1192,11 @@ fun SectionSelector(
 fun RoutineCard(
     item: RoutineItem,
     isRunning: Boolean = false,
+    editMode: Boolean = false,
+    allowMenu: Boolean = false,
     modifier: Modifier = Modifier,
+    onDelete: () -> Unit = {},
+    onEdit: () -> Unit = {},
     onClick: () -> Unit = {}
 ) {
 
@@ -744,10 +1217,27 @@ fun RoutineCard(
         item.endTime
     }
 
+    val rotation by rememberInfiniteTransition(label = "shake").animateFloat(
+        initialValue = -0.8f,
+        targetValue = 0.8f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(90),
+            repeatMode = RepeatMode.Reverse
+        ),
+        label = "shakeRotation"
+    )
+
+    val shakeRotation = if (editMode) rotation else 0f
+
+    var showMenu by remember { mutableStateOf(false) }
+
     Card(
         onClick = onClick,
         modifier = modifier
-            .fillMaxWidth(),
+            .fillMaxWidth()
+            .graphicsLayer {
+                rotationZ = shakeRotation
+            },
         shape = RoundedCornerShape(20.dp),
         colors = CardDefaults.cardColors(
             containerColor = when {
@@ -772,10 +1262,17 @@ fun RoutineCard(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(horizontal = 20.dp, vertical = 24.dp),
-            horizontalArrangement = Arrangement.SpaceBetween
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically
         ) {
 
-            Column {
+            Column(
+                verticalArrangement = if (item.room == "-")
+                    Arrangement.Center
+                else
+                    Arrangement.Top
+            ) {
+
                 Text(
                     text = item.subject,
                     style = MaterialTheme.typography.titleLarge,
@@ -783,27 +1280,86 @@ fun RoutineCard(
                     color = MaterialTheme.colorScheme.primary.copy(alpha = 0.75f)
                 )
 
-                Spacer(modifier = Modifier.height(8.dp))
+                if (item.room != "-") {
 
-                Text(
-                    text = item.room,
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
+                    Spacer(modifier = Modifier.height(6.dp))
+
+                    Text(
+                        text = item.room,
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
             }
 
-            Column(horizontalAlignment = Alignment.End) {
-                Text(
-                    text = formattedStart,
-                    style = MaterialTheme.typography.titleMedium,
-                    fontWeight = FontWeight.Medium
-                )
+            Row(
+                verticalAlignment = Alignment.CenterVertically
+            ) {
 
-                Text(
-                    text = formattedEnd,
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
+                if (formattedStart != "-" || formattedEnd != "-") {
+
+                    Column(horizontalAlignment = Alignment.End) {
+
+                        if (formattedStart != "-") {
+                            Text(
+                                text = formattedStart,
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Medium
+                            )
+                        }
+
+                        if (formattedEnd != "-") {
+                            Text(
+                                text = formattedEnd,
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
+                    }
+                }
+
+                if (editMode && allowMenu) {
+
+                    Spacer(modifier = Modifier.width(6.dp))
+
+                    Box(
+                        modifier = Modifier
+                            .padding(start = 4.dp)
+                            .heightIn(min = 36.dp)
+                            .wrapContentWidth(),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.MoreVert,
+                            contentDescription = "Options",
+                            modifier = Modifier
+                                .size(18.dp)
+                                .clickable { showMenu = true }
+                        )
+                    }
+
+                    DropdownMenu(
+                        expanded = showMenu,
+                        onDismissRequest = { showMenu = false }
+                    ) {
+
+                        DropdownMenuItem(
+                            text = { Text("Edit") },
+                            onClick = {
+                                showMenu = false
+                                onEdit()
+                            }
+                        )
+
+                        DropdownMenuItem(
+                            text = { Text("Delete") },
+                            onClick = {
+                                showMenu = false
+                                onDelete()
+                            }
+                        )
+                    }
+                }
             }
         }
     }
@@ -914,6 +1470,92 @@ fun NotificationOption(
                 checked = isChecked,
                 onCheckedChange = { onToggle() }
             )
+        }
+    }
+}
+
+fun convertTo24Hour(hour: String, minute: String, ampm: String): String {
+
+    var h = hour.toInt()
+
+    if (ampm == "PM" && h != 12) h += 12
+    if (ampm == "AM" && h == 12) h = 0
+
+    return "${h.toString().padStart(2,'0')}:$minute"
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun TimeDropdown(
+    label: String,
+    options: List<String>,
+    selected: String,
+    onSelect: (String) -> Unit
+) {
+
+    var expanded by remember { mutableStateOf(false) }
+
+    ExposedDropdownMenuBox(
+        expanded = expanded,
+        onExpandedChange = { expanded = !expanded }
+    ) {
+
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+
+            Text(
+                text = label,
+                style = MaterialTheme.typography.labelSmall,
+                modifier = Modifier.padding(bottom = 4.dp)
+            )
+
+            Surface(
+                modifier = Modifier
+                    .menuAnchor()
+                    .width(72.dp)
+                    .height(48.dp),
+                shape = RoundedCornerShape(8.dp),
+                border = BorderStroke(1.dp, MaterialTheme.colorScheme.outline),
+                onClick = { expanded = true }
+            ) {
+                Row(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(horizontal = 8.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.SpaceBetween
+                ) {
+
+                    Text(
+                        text = selected,
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+
+                    Icon(
+                        imageVector = Icons.Default.ArrowDropDown,
+                        contentDescription = null,
+                        modifier = Modifier.size(18.dp)
+                    )
+                }
+            }
+        }
+
+        ExposedDropdownMenu(
+            expanded = expanded,
+            onDismissRequest = { expanded = false }
+        ) {
+
+            options.forEach { option ->
+
+                DropdownMenuItem(
+                    text = { Text(option) },
+                    onClick = {
+                        onSelect(option)
+                        expanded = false
+                    }
+                )
+            }
         }
     }
 }
