@@ -17,6 +17,12 @@ object ReminderScheduler {
     @SuppressLint("ScheduleExactAlarm")
     fun scheduleTodayReminder(context: Context) {
 
+        val prefs =
+            context.getSharedPreferences("MyPagePrefs", Context.MODE_PRIVATE)
+
+        val isKiitStudent =
+            prefs.getBoolean("is_kiit_student", true)
+
         val alarmManager =
             context.getSystemService(Context.ALARM_SERVICE)
                     as AlarmManager
@@ -88,56 +94,113 @@ object ReminderScheduler {
         val prefs =
             context.getSharedPreferences("MyPagePrefs", Context.MODE_PRIVATE)
 
-        val json = prefs.getString("timetable_json", null)
-            ?: return null
-
-        val selectedSection =
-            prefs.getString("selected_section", null)
-                ?: return null
-
-        val type = object : TypeToken<List<ClassItem>>() {}.type
-        val classList: List<ClassItem> =
-            Gson().fromJson(json, type)
+        val isKiitStudent =
+            prefs.getBoolean("is_kiit_student", true)
 
         val now = LocalDateTime.now()
 
-        for (i in 0..6) {
+        if (isKiitStudent) {
 
-            val date = now.plusDays(i.toLong())
+            val json = prefs.getString("timetable_json", null)
+                ?: return null
 
-            val day = when (date.dayOfWeek) {
-                DayOfWeek.SUNDAY -> "SUN"
-                DayOfWeek.MONDAY -> "MON"
-                DayOfWeek.TUESDAY -> "TUE"
-                DayOfWeek.WEDNESDAY -> "WED"
-                DayOfWeek.THURSDAY -> "THU"
-                DayOfWeek.FRIDAY -> "FRI"
-                DayOfWeek.SATURDAY -> "SAT"
+            val selectedSection =
+                prefs.getString("selected_section", null)
+                    ?: return null
+
+            val type = object : TypeToken<List<ClassItem>>() {}.type
+            val classList: List<ClassItem> =
+                Gson().fromJson(json, type)
+
+            for (i in 0..6) {
+
+                val date = now.plusDays(i.toLong())
+
+                val day = when (date.dayOfWeek) {
+                    DayOfWeek.SUNDAY -> "SUN"
+                    DayOfWeek.MONDAY -> "MON"
+                    DayOfWeek.TUESDAY -> "TUE"
+                    DayOfWeek.WEDNESDAY -> "WED"
+                    DayOfWeek.THURSDAY -> "THU"
+                    DayOfWeek.FRIDAY -> "FRI"
+                    DayOfWeek.SATURDAY -> "SAT"
+                }
+
+                val classes =
+                    classList
+                        .filter {
+                            it.section == selectedSection &&
+                                    it.day == day
+                        }
+                        .sortedBy { java.time.LocalTime.parse(it.startTime) }
+
+                if (classes.isNotEmpty()) {
+
+                    val firstClass = classes.first()
+
+                    val parts = firstClass.startTime.split(":")
+                    val hour = parts[0].toInt()
+                    val minute = parts[1].toInt()
+
+                    val classTime =
+                        date.withHour(hour)
+                            .withMinute(minute)
+                            .withSecond(0)
+
+                    if (classTime.isAfter(now)) {
+                        return classTime
+                    }
+                }
             }
 
-            val classes =
-                classList
-                    .filter {
-                        it.section == selectedSection &&
-                                it.day == day
+        } else {
+
+            val customJson =
+                prefs.getString("custom_classes", null)
+                    ?: return null
+
+            val type = object : TypeToken<List<CustomClass>>() {}.type
+            val customList: List<CustomClass> =
+                Gson().fromJson(customJson, type)
+
+            for (i in 0..6) {
+
+                val date = now.plusDays(i.toLong())
+
+                val day = when (date.dayOfWeek) {
+                    DayOfWeek.SUNDAY -> "SUN"
+                    DayOfWeek.MONDAY -> "MON"
+                    DayOfWeek.TUESDAY -> "TUE"
+                    DayOfWeek.WEDNESDAY -> "WED"
+                    DayOfWeek.THURSDAY -> "THU"
+                    DayOfWeek.FRIDAY -> "FRI"
+                    DayOfWeek.SATURDAY -> "SAT"
+                }
+
+                val classes =
+                    customList
+                        .filter {
+                            it.day == day &&
+                                    it.startTime.isNotBlank()
+                        }
+                        .sortedBy { java.time.LocalTime.parse(it.startTime) }
+
+                if (classes.isNotEmpty()) {
+
+                    val firstClass = classes.first()
+
+                    val parts = firstClass.startTime.split(":")
+                    val hour = parts[0].toInt()
+                    val minute = parts[1].toInt()
+
+                    val classTime =
+                        date.withHour(hour)
+                            .withMinute(minute)
+                            .withSecond(0)
+
+                    if (classTime.isAfter(now)) {
+                        return classTime
                     }
-                    .sortedBy { java.time.LocalTime.parse(it.startTime) }
-
-            if (classes.isNotEmpty()) {
-
-                val firstClass = classes.first()
-
-                val parts = firstClass.startTime.split(":")
-                val hour = parts[0].toInt()
-                val minute = parts[1].toInt()
-
-                val classTime =
-                    date.withHour(hour)
-                        .withMinute(minute)
-                        .withSecond(0)
-
-                if (classTime.isAfter(now)) {
-                    return classTime
                 }
             }
         }
