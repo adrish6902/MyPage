@@ -58,7 +58,9 @@ class MainActivity : BaseActivity() {
             classList = Gson().fromJson(savedJson, type)
         }
 
-        if (!prefs.contains("selected_section")) {
+        val isKiitStudent = prefs.getBoolean("is_kiit_student", true)
+
+        if (isKiitStudent && !prefs.contains("selected_section")) {
             classList.firstOrNull()?.section?.let {
                 prefs.edit().putString("selected_section", it).apply()
             }
